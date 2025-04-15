@@ -16,7 +16,7 @@ def generate_launch_description():
 
     return LaunchDescription([
 
-            Node(
+             Node(
                 package='rf2o_laser_odometry',
                 executable='rf2o_laser_odometry_node',
                 name='rf2o_laser_odometry',
@@ -29,7 +29,7 @@ def generate_launch_description():
                     'odom_frame_id' : 'odom',
                     'init_pose_from_topic' : '',
                     'freq' : 10.0}],
-                arguments=['--ros-args', '--log-level', 'fatal'],  # Réduit au maximum les logs ROS
-                prefix='stdbuf -oL -eL',  # Évite les problèmes d'affichage
+                arguments=['--ros-args', '--log-level', 'fatal'],  # Rï¿½duit au maximum les logs ROS
+                prefix='stdbuf -oL -eL',  # ï¿½vite les problï¿½mes d'affichage
             ),
     ])
