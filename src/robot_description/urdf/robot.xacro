@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<robot name="robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find robot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find robot_description)/urdf/robot.trans" />
+<xacro:include filename="$(find robot_description)/urdf/robot.gazebo" />
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.00014980415129537406 0.0003023390699038116 0.0332081283017649" rpy="0 0 0"/>
+    <mass value="0.063579487839896"/>
+    <inertia ixx="0.000277" iyy="0.00022027" izz="0.00038299" ixy="-0.0" iyz="0.000161" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Roue4_1">
+  <inertial>
+    <origin xyz="-0.0010380506382758475 -1.1679208535467223e-05 -2.1888176668372061e-07" rpy="0 0 0"/>
+    <mass value="0.06461883281506762"/>
+    <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.076346 0.05906 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.076346 0.05906 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Roue3_1">
+  <inertial>
+    <origin xyz="-0.0010380506382763194 -1.1679208533246777e-05 -2.188817664235121e-07" rpy="0 0 0"/>
+    <mass value="0.06461883281506762"/>
+    <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.076346 -0.06094 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.076346 -0.06094 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Roue1_1">
+  <inertial>
+    <origin xyz="0.001038572809780841 1.1096913653231566e-05 -2.1888178453749463e-07" rpy="0 0 0"/>
+    <mass value="0.0646188328150675"/>
+    <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.076654 -0.06094 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.076654 -0.06094 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Roue2_1">
+  <inertial>
+    <origin xyz="0.0010385728097805635 1.1096913650872342e-05 -2.188817843883084e-07" rpy="0 0 0"/>
+    <mass value="0.06461883281506752"/>
+    <inertia ixx="0.000287" iyy="0.00019" izz="0.00019" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.076654 0.05906 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.076654 0.05906 -0.023022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_description)/meshes/Roue2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="laser_frame">
+    <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <cylinder radius="0.01" length="0.1"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+        </collision>
+    </link>
+
+<joint name="base_footprint_joint" type="fixed">
+<parent link="base_footprint"/>
+<child link="base_link"/>
+<origin xyz="0 0 0" rpy="0 0 1.5708"/>
+<axis xyz="0 0 1"/>
+</joint>
+
+<link name="base_footprint"/>
+  
+
+<joint name="laser_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser_frame"/>
+    <origin xyz="0 0 0.075" rpy="0 0 1.5708"/>
+    <axis xyz="0 0 1"/>
+</joint>
+
+
+<joint name="Revolution_37" type="continuous">
+  <origin xyz="0.076346 -0.05906 0.023022" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Roue4_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Revolution_38" type="continuous">
+  <origin xyz="0.076346 0.06094 0.023022" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Roue3_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Revolution_39" type="continuous">
+  <origin xyz="-0.076654 0.06094 0.023022" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Roue1_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Revolution_40" type="continuous">
+  <origin xyz="-0.076654 -0.05906 0.023022" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Roue2_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+</robot>

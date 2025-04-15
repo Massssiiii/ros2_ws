@@ -1,0 +1,14 @@
+# Ignorer les dossiers générés par la compilation
+build/
+install/
+log/
+
+# Fichiers temporaires
+*.pyc
+__pycache__/
+*.swp
+
+# VSCode ou autres IDE
+.vscode/
+.idea/
+
