@@ -5,7 +5,7 @@ from rclpy.node import Node
 from rclpy.action import ActionClient
 from nav2_msgs.action import NavigateToPose
 from geometry_msgs.msg import PoseWithCovarianceStamped, PoseStamped
-import RPi.GPIO as GPIO
+from gpiozero import Button
 import time
 import threading
 
@@ -13,23 +13,17 @@ class ButtonControlNode(Node):
     def __init__(self):
         super().__init__('button_control_node')
         
-        # Configuration des GPIO - Boutons connectés à la masse (ground)
-        GPIO.setmode(GPIO.BCM)
-        self.POSITION_BUTTON = 23  # Bouton pour définir la position
-        self.GOAL_BUTTON = 24      # Bouton fin de course pour envoyer goal
+        # Configuration des GPIO avec gpiozero
+        # Les boutons sont connectés à GND donc pull_up=True
+        self.position_button = Button(23, pull_up=True, bounce_time=0.1)
+        self.goal_switch = Button(24, pull_up=True, bounce_time=0.1)
         
-        # Configuration des entrées avec pull-up interne
-        # Les boutons seront à l'état LOW quand appuyés (connectés à GND)
-        GPIO.setup(self.POSITION_BUTTON, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-        GPIO.setup(self.GOAL_BUTTON, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        # Ajout des gestionnaires d'événements
+        self.position_button.when_pressed = self.position_button_pressed
+        self.goal_switch.when_released = self.goal_switch_released  # Déclenche quand le switch est relâché (n'est plus à False)
         
-        # Configuration des événements pour les boutons
-        # Détection sur front descendant (FALLING) car bouton vers GND
-        GPIO.add_event_detect(self.POSITION_BUTTON, GPIO.FALLING, callback=self.position_button_callback, bouncetime=300)
-        
-        # Pour le bouton fin de course NF (Normalement Fermé)
-        # On détecte le front montant (RISING) car il sera ouvert quand activé
-        GPIO.add_event_detect(self.GOAL_BUTTON, GPIO.RISING, callback=self.goal_button_callback, bouncetime=300)
+        # Variables pour mesurer la durée d'appui
+        self.press_start_time = 0
         
         # Positions initiales (convertie avec (0,0) au centre et en mètres)
         self.blue_positions = [
@@ -64,18 +58,17 @@ class ButtonControlNode(Node):
         
         self.get_logger().info('Node démarré - En attente des actions sur les boutons')
         
-    def position_button_callback(self, channel):
-        """Gère les appuis sur le bouton de position (GPIO 23)"""
-        self.get_logger().info('Bouton de position appuyé')
+    def position_button_pressed(self):
+        """Appelé quand le bouton de position est pressé"""
+        self.press_start_time = time.time()
         
-        # Mesure du temps d'appui pour distinguer appui court/long
-        start_time = time.time()
-        
-        # Attente du relâchement du bouton
-        while GPIO.input(self.POSITION_BUTTON) == GPIO.LOW:
-            time.sleep(0.01)
-            
-        duration = time.time() - start_time
+        # On ajoute un gestionnaire pour le relâchement
+        self.position_button.when_released = self.position_button_released
+    
+    def position_button_released(self):
+        """Appelé quand le bouton de position est relâché"""
+        # Calcul de la durée d'appui
+        duration = time.time() - self.press_start_time
         
         # Détermine le type d'appui
         if duration < 1.0:  # Appui court (moins d'1s)
@@ -92,8 +85,8 @@ class ButtonControlNode(Node):
         # Passe à la position suivante pour le prochain appui
         self.current_position_index = (self.current_position_index + 1) % len(self.blue_positions)
     
-    def goal_button_callback(self, channel):
-        """Gère le relâchement du bouton fin de course (GPIO 24)"""
+    def goal_switch_released(self):
+        """Appelé quand le bouton/switch de goal est relâché (n'est plus à FALSE)"""
         self.get_logger().info('Bouton fin de course relâché - Envoi du goal')
         
         # Sélection du goal en fonction de la couleur
@@ -161,31 +154,19 @@ class ButtonControlNode(Node):
         # Envoi asynchrone du goal
         self.get_logger().info('Envoi du goal de navigation')
         self.nav_client.send_goal_async(goal_msg)
-    
-    def cleanup(self):
-        """Nettoie les ressources GPIO à la fermeture"""
-        GPIO.cleanup()
 
 def main(args=None):
     rclpy.init(args=args)
     node = ButtonControlNode()
     
     try:
-        # Utiliser un thread séparé pour spin pour éviter de bloquer la gestion des GPIO
-        spin_thread = threading.Thread(target=rclpy.spin, args=(node,))
-        spin_thread.start()
-        
-        while rclpy.ok():
-            # Boucle principale pour maintenir le programme actif
-            time.sleep(0.1)
-            
+        # Lancer le nœud ROS2
+        rclpy.spin(node)
     except KeyboardInterrupt:
         print("Arrêt du programme")
     finally:
-        node.cleanup()
+        # Nettoyage explicite non nécessaire avec gpiozero
         rclpy.shutdown()
-        if 'spin_thread' in locals() and spin_thread.is_alive():
-            spin_thread.join()
 
 if __name__ == '__main__':
     main()
