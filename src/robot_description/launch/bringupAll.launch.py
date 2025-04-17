@@ -17,6 +17,8 @@ def generate_launch_description():
     laser_filters_pkg_dir = get_package_share_directory('laser_filters')
     odometry_pkg_dir = get_package_share_directory('rf2o_laser_odometry')
     robot_nav_pkg_dir = get_package_share_directory('robot_nav')
+    gpio_nav_control_pkg_dir = get_package_share_directory('gpio_nav_control')  # Ajoutez cette ligne
+
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -89,5 +91,13 @@ def generate_launch_description():
                 os.path.join(robot_nav_pkg_dir, 'launch', 'localization_launch.py')
             ),
             launch_arguments={'params_file': '/home/rasp/ros2_ws/src/robot_nav/config/nav2_params.yaml', 'use_sim_time': 'false'}.items()
+        ),
+        
+        # Lancer le contrôleur de boutons GPIO
+        Node(
+            package='gpio_nav_control',
+            executable='button_control',
+            name='button_control_node',
+            output='screen'
         )
     ])

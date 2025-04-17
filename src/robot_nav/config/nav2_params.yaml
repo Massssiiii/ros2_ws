@@ -37,8 +37,8 @@ amcl:
     z_rand: 0.5
     z_short: 0.05
     scan_topic: scan
-    set_initial_pose: True
-    initial_pose: {x: 0.0, y: 0.0, z: 0.0, yaw: 0.0} #-1.5708
+    #set_initial_pose: True
+    #initial_pose: {x: 0.0, y: 0.0, z: 0.0, yaw: 0.0} #-1.5708
 
 
 bt_navigator:
@@ -190,7 +190,7 @@ controller_server:
       PathFollowCritic:
         enabled: true
         cost_power: 1
-        cost_weight: 25.0
+        cost_weight: 40.0
         offset_from_furthest: 1
         threshold_to_consider: 0.2
       
@@ -307,7 +307,7 @@ map_saver:
 
 map_server:
   ros__parameters:
-    yaml_filename: /home/rasp/chambre.yaml        #/home/rasp/ros2_ws/src/robot_nav/map/map_1742316237.yaml   /home/rasp/Table2025_keepout_mask.yaml
+    yaml_filename: /home/rasp/Table2025_keepout_mask.yaml      #/home/rasp/ros2_ws/src/robot_nav/map/map_1742316237.yaml     /home/rasp/chambre.yaml  
     topic_name: "map"
     frame_id: "map"    
     
