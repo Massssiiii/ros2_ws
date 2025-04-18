@@ -77,8 +77,8 @@ public:
       : nh_(nh),
         tf_(buffer_),
         buffer_(nh_->get_clock()),
-        scan_sub_(nh_, "scan", rmw_qos_profile_sensor_data),
-        tf_filter_(scan_sub_, buffer_, "base_link", 50, nh_),
+        scan_sub_(nh_, "scan_raw", rmw_qos_profile_sensor_data),
+        tf_filter_(scan_sub_, buffer_, "base_footprint", 50, nh_),
         filter_chain_("sensor_msgs::msg::LaserScan")
   {
     // Configure filter chain

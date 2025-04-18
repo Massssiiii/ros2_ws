@@ -8,6 +8,7 @@ from geometry_msgs.msg import PoseWithCovarianceStamped, PoseStamped
 from gpiozero import Button
 import time
 import threading
+import math  # Importation pour les fonctions trigonométriques
 
 class ButtonControlNode(Node):
     def __init__(self):
@@ -20,7 +21,9 @@ class ButtonControlNode(Node):
         
         # Ajout des gestionnaires d'événements
         self.position_button.when_pressed = self.position_button_pressed
-        self.goal_switch.when_released = self.goal_switch_released  # Déclenche quand le switch est relâché (n'est plus à False)
+        
+        # Changement ici : on déclenche l'action quand le bouton est pressé pour un contact NF
+        self.goal_switch.when_pressed = self.goal_switch_pressed
         
         # Variables pour mesurer la durée d'appui
         self.press_start_time = 0
@@ -28,16 +31,16 @@ class ButtonControlNode(Node):
         # Positions initiales (convertie avec (0,0) au centre et en mètres)
         self.blue_positions = [
             #{'x': -1.3, 'y': -0.125, 'theta': 0.0},  # Zone Gauche
-            {'x': 0.275, 'y': -0.8, 'theta': 0.0}    # Zone en Bas
+            {'x': 0.275, 'y': -0.8, 'theta': 1.57}    # Zone en Bas avec rotation positive
         ]
         self.yellow_positions = [
             #{'x': 1.3, 'y': -0.125, 'theta': 0.0},   # Zone Droite
-            {'x': -0.275, 'y': -0.8, 'theta': 0.0}   # Zone en Bas
+            {'x': -0.275, 'y': -0.8, 'theta': 1.57}   # Zone en Bas avec rotation positive
         ]
         
         # Goals d'arrivée
-        self.blue_goal = self.create_pose(1.125, 0.8, 0.0)   # Zone d'arrivée bleue
-        self.yellow_goal = self.create_pose(-1.125, 0.8, 0.0)  # Zone d'arrivée jaune
+        self.blue_goal = self.create_pose(1.05, 0.75, 1.57)   # Zone d'arrivée bleue
+        self.yellow_goal = self.create_pose(-1.05, 0.75, 1.57)  # Zone d'arrivée jaune
         
         # État du système
         self.current_position_index = 0
@@ -85,9 +88,10 @@ class ButtonControlNode(Node):
         # Passe à la position suivante pour le prochain appui
         self.current_position_index = (self.current_position_index + 1) % len(self.blue_positions)
     
-    def goal_switch_released(self):
-        """Appelé quand le bouton/switch de goal est relâché (n'est plus à FALSE)"""
-        self.get_logger().info('Bouton fin de course relâché - Envoi du goal')
+    # Fonction renommée et modifiée pour répondre à l'appui (et non au relâchement)
+    def goal_switch_pressed(self):
+        """Appelé quand le bouton/switch de goal est pressé (pour contact NF)"""
+        self.get_logger().info('Bouton fin de course appuyé - Envoi du goal')
         
         # Sélection du goal en fonction de la couleur
         if self.position_color == "yellow":
@@ -97,6 +101,17 @@ class ButtonControlNode(Node):
             self.send_goal_pose(self.blue_goal)
             self.get_logger().info('Goal bleu envoyé')
     
+    def euler_to_quaternion(self, yaw):
+        """
+        Convertit un angle de lacet (yaw) en quaternion
+        Pour une rotation autour de l'axe Z uniquement
+        """
+        qx = 0.0
+        qy = 0.0
+        qz = math.sin(yaw / 2.0)
+        qw = math.cos(yaw / 2.0)
+        return qx, qy, qz, qw
+    
     def create_pose(self, x, y, theta):
         """Crée une pose pour le goal de navigation"""
         pose = PoseStamped()
@@ -105,10 +120,14 @@ class ButtonControlNode(Node):
         pose.pose.position.x = x
         pose.pose.position.y = y
         pose.pose.position.z = 0.0
-        pose.pose.orientation.x = 0.0
-        pose.pose.orientation.y = 0.0
-        pose.pose.orientation.z = 0.0
-        pose.pose.orientation.w = 1.0  # Orientation par défaut (sans rotation)
+        
+        # Convertir theta (angle en radians) en quaternion
+        qx, qy, qz, qw = self.euler_to_quaternion(theta)
+        pose.pose.orientation.x = qx
+        pose.pose.orientation.y = qy
+        pose.pose.orientation.z = qz
+        pose.pose.orientation.w = qw
+        
         return pose
     
     def set_initial_pose(self, x, y, theta, color):
@@ -125,10 +144,11 @@ class ButtonControlNode(Node):
         msg.pose.pose.position.z = 0.0
         
         # Orientation (quaternion pour représenter theta)
-        msg.pose.pose.orientation.x = 0.0
-        msg.pose.pose.orientation.y = 0.0
-        msg.pose.pose.orientation.z = 0.0
-        msg.pose.pose.orientation.w = 1.0
+        qx, qy, qz, qw = self.euler_to_quaternion(theta)
+        msg.pose.pose.orientation.x = qx
+        msg.pose.pose.orientation.y = qy
+        msg.pose.pose.orientation.z = qz
+        msg.pose.pose.orientation.w = qw
         
         # Covariance (valeurs par défaut)
         msg.pose.covariance = [0.25, 0.0, 0.0, 0.0, 0.0, 0.0,

@@ -8,10 +8,10 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     
-    # Déclaration des arguments
+    # Declaration des arguments
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     
-    # Récupération des packages nécessaires
+    # Recuperation des packages necessaires
     robot_description_pkg_dir = get_package_share_directory('robot_description')
     rplidar_ros_pkg_dir = get_package_share_directory('sllidar_ros2')
     laser_filters_pkg_dir = get_package_share_directory('laser_filters')
@@ -93,7 +93,7 @@ def generate_launch_description():
             launch_arguments={'params_file': '/home/rasp/ros2_ws/src/robot_nav/config/nav2_params.yaml', 'use_sim_time': 'false'}.items()
         ),
         
-        # Lancer le contrôleur de boutons GPIO
+        # Lancer le controleur de boutons GPIO
         Node(
             package='gpio_nav_control',
             executable='button_control',
