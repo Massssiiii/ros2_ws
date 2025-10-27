@@ -1,0 +1,107 @@
+[1.536s] Invoking command in '/home/rasp/ros2_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/laser_filters -- -j4 -l4
+[2.130s] [  8%] Built target gtest_main
+[2.224s] [ 17%] Built target scan_to_cloud_filter_chain
+[2.301s] [ 26%] Built target laser_scan_filters
+[2.314s] [ 34%] Built target scan_to_scan_filter_chain
+[2.469s] [ 43%] Built target gtest
+[2.703s] [ 56%] Built target laser_filter_chains
+[2.780s] [ 65%] Built target test_shadow_detector
+[2.811s] [ 73%] Built target test_scan_filter_chain
+[2.881s] [ 82%] Built target test_speckle_filter
+[2.994s] [ 91%] Built target test_scan_shadows_filter
+[3.107s] [100%] Built target generic_laser_filter_node
+[4.317s] Invoked command in '/home/rasp/ros2_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/laser_filters -- -j4 -l4
+[4.324s] Invoking command in '/home/rasp/ros2_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/laser_filters
+[4.388s] -- Install configuration: ""
+[4.390s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[4.395s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[4.397s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/laser_filters_plugins.xml
+[4.405s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include
+[4.412s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters
+[4.414s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/footprint_filter.h
+[4.418s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[4.420s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/intensity_filter.h
+[4.422s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/polygon_filter.h
+[4.426s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+[4.427s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/box_filter.h
+[4.427s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/sector_filter.h
+[4.430s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/array_filter.h
+[4.430s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/median_filter.h
+[4.431s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/interpolation_filter.h
+[4.458s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[4.465s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[4.466s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[4.467s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/range_filter.h
+[4.472s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/speckle_filter.h
+[4.473s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/median_spatial_filter.h
+[4.473s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_blob_filter.h
+[4.492s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/library_path.sh
+[4.500s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/library_path.dsv
+[4.504s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/liblaser_scan_filters.so
+[4.511s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/liblaser_filter_chains.so
+[4.527s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[4.527s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples
+[4.528s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.yaml
+[4.539s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py
+[4.548s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[4.554s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.yaml
+[4.559s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py
+[4.559s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter_example.yaml
+[4.560s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.xml
+[4.573s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.yaml
+[4.573s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.launch.py
+[4.574s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.py
+[4.575s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml
+[4.590s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml
+[4.590s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.launch.py
+[4.594s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[4.595s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml
+[4.595s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py
+[4.596s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py
+[4.600s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py
+[4.601s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml
+[4.601s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py
+[4.612s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py
+[4.613s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py
+[4.619s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.launch.py
+[4.626s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.yaml
+[4.628s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[4.629s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[4.630s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.launch.py
+[4.630s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[4.637s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py
+[4.652s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[4.653s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[4.654s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test
+[4.654s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.launch
+[4.658s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.cpp
+[4.659s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_shadows_filter.cpp
+[4.659s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.yaml
+[4.660s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/fake_laser.py
+[4.671s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.test.py
+[4.671s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_shadow_detector.cpp
+[4.672s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.yaml
+[4.677s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.yaml
+[4.677s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.cpp
+[4.678s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.test.py
+[4.678s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters
+[4.683s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters
+[4.684s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh
+[4.684s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv
+[4.685s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/path.sh
+[4.689s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/path.dsv
+[4.689s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.bash
+[4.690s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.sh
+[4.690s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.zsh
+[4.691s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.dsv
+[4.692s] -- Installing: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/package.dsv
+[4.699s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/packages/laser_filters
+[4.700s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters
+[4.707s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/rclcpp_components/laser_filters
+[4.712s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.713s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.718s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake
+[4.719s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[4.720s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[4.721s] -- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/package.xml
+[4.722s] Invoked command in '/home/rasp/ros2_ws/build/laser_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/laser_filters

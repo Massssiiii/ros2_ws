@@ -1,0 +1,21 @@
+[9.068s] Invoking command in '/home/rasp/ros2_ws/src/gpio_nav_control': PYTHONPATH=/home/rasp/ros2_ws/build/gpio_nav_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpio_nav_control build --build-base /home/rasp/ros2_ws/build/gpio_nav_control/build install --record /home/rasp/ros2_ws/build/gpio_nav_control/install.log --single-version-externally-managed install_data
+[11.212s] running egg_info
+[11.332s] writing ../../build/gpio_nav_control/gpio_nav_control.egg-info/PKG-INFO
+[11.334s] writing dependency_links to ../../build/gpio_nav_control/gpio_nav_control.egg-info/dependency_links.txt
+[11.335s] writing entry points to ../../build/gpio_nav_control/gpio_nav_control.egg-info/entry_points.txt
+[11.337s] writing requirements to ../../build/gpio_nav_control/gpio_nav_control.egg-info/requires.txt
+[11.337s] writing top-level names to ../../build/gpio_nav_control/gpio_nav_control.egg-info/top_level.txt
+[11.605s] reading manifest file '../../build/gpio_nav_control/gpio_nav_control.egg-info/SOURCES.txt'
+[11.609s] writing manifest file '../../build/gpio_nav_control/gpio_nav_control.egg-info/SOURCES.txt'
+[11.610s] running build
+[11.611s] running build_py
+[11.616s] running install
+[11.643s] running install_lib
+[11.803s] running install_data
+[11.803s] running install_egg_info
+[11.944s] removing '/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages/gpio_nav_control-0.0.1-py3.12.egg-info' (and everything under it)
+[11.946s] Copying ../../build/gpio_nav_control/gpio_nav_control.egg-info to /home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages/gpio_nav_control-0.0.1-py3.12.egg-info
+[11.955s] running install_scripts
+[12.886s] Installing button_control script to /home/rasp/ros2_ws/install/gpio_nav_control/lib/gpio_nav_control
+[12.888s] writing list of installed files to '/home/rasp/ros2_ws/build/gpio_nav_control/install.log'
+[13.066s] Invoked command in '/home/rasp/ros2_ws/src/gpio_nav_control' returned '0': PYTHONPATH=/home/rasp/ros2_ws/build/gpio_nav_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gpio_nav_control build --build-base /home/rasp/ros2_ws/build/gpio_nav_control/build install --record /home/rasp/ros2_ws/build/gpio_nav_control/install.log --single-version-externally-managed install_data

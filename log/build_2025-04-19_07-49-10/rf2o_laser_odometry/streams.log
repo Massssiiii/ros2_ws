@@ -1,0 +1,25 @@
+[4.087s] Invoking command in '/home/rasp/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/rf2o_laser_odometry -- -j4 -l4
+[4.832s] [ 60%] Built target rf2o_laser_odometry_node
+[5.035s] [100%] Built target rf2o_laser_odometry
+[5.132s] Invoked command in '/home/rasp/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/rf2o_laser_odometry -- -j4 -l4
+[5.240s] Invoking command in '/home/rasp/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/rf2o_laser_odometry
+[5.312s] -- Install configuration: ""
+[5.318s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[5.320s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[5.321s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[5.324s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[5.324s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[5.328s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[5.328s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[5.329s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[5.332s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[5.333s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[5.335s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[5.335s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[5.338s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[5.339s] -- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[5.342s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[5.344s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[5.345s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[5.347s] -- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[5.359s] Invoked command in '/home/rasp/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/rf2o_laser_odometry

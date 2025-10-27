@@ -1,0 +1,16 @@
+[0.047s] Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/robot_nav
+[0.413s] -- The C compiler identification is GNU 13.3.0
+[0.744s] -- The CXX compiler identification is GNU 13.3.0
+[0.838s] -- Detecting C compiler ABI info
+[1.482s] -- Detecting C compiler ABI info - done
+[1.525s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.527s] -- Detecting C compile features
+[1.530s] -- Detecting C compile features - done
+[1.596s] -- Detecting CXX compiler ABI info
+[2.307s] -- Detecting CXX compiler ABI info - done
+[2.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.363s] -- Detecting CXX compile features
+[2.366s] -- Detecting CXX compile features - done
+[2.429s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.871s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.349s] Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/robot_nav

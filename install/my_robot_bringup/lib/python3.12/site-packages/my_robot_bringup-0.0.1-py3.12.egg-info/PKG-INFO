@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-robot-bringup
+Version: 0.0.1
+Summary: Launch files for full robot bringup (LiDAR + odom + SLAM)
+Maintainer: rasp
+Maintainer-email: 
+License: MIT

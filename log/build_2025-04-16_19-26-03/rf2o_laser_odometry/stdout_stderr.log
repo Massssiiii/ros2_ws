@@ -1,0 +1,27 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[ 60%] Built target rf2o_laser_odometry_node
+[ 80%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[100%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[100%] Built target rf2o_laser_odometry
+-- Install configuration: ""
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml

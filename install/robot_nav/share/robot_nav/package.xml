@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_nav</name>
+  <version>0.0.1</version>
+  <description>The robot_nav package</description>
+  <maintainer email="youremail@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Pas de dependances specifiees ici, mais tu peux en ajouter plus tard si necessaire -->
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

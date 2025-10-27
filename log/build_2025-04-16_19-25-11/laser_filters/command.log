@@ -1,0 +1,2 @@
+Invoking command in '/home/rasp/ros2_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/laser_filters -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/laser_filters
+Invoked command in '/home/rasp/ros2_ws/build/laser_filters' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/laser_filters -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/laser_filters

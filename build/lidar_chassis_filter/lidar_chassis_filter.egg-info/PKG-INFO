@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: lidar-chassis-filter
+Version: 0.1.0
+Summary: Node ROS 2 pour filtrer les points du châssis du robot dans un scan LIDAR
+Maintainer: ton_nom
+Maintainer-email: ton_email@example.com
+License: MIT

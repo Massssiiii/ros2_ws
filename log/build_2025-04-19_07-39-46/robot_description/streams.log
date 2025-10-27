@@ -1,0 +1,13 @@
+[6.196s] Invoking command in '/home/rasp/ros2_ws/src/robot_description': PYTHONPATH=/home/rasp/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/rasp/ros2_ws/build/robot_description/build install --record /home/rasp/ros2_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[6.300s] Fatal Python error: init_import_site: Failed to import the site module
+[6.302s] Python runtime state: initialized
+[6.306s] Traceback (most recent call last):
+[6.307s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[6.308s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[6.309s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[6.310s]   File "<frozen importlib._bootstrap>", line 1176, in exec_module
+[6.311s]   File "<frozen site>", line 643, in <module>
+[6.312s]   File "<frozen site>", line 624, in main
+[6.313s]   File "<frozen site>", line 132, in abs_paths
+[6.314s] KeyboardInterrupt
+[6.315s] Invoked command in '/home/rasp/ros2_ws/src/robot_description' returned '1': PYTHONPATH=/home/rasp/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/rasp/ros2_ws/build/robot_description/build install --record /home/rasp/ros2_ws/build/robot_description/install.log --single-version-externally-managed install_data

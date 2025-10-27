@@ -1,0 +1,1244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000941] (gpio_nav_control) JobQueued: {'identifier': 'gpio_nav_control', 'dependencies': OrderedDict()}
+[0.001852] (laser_filters) JobQueued: {'identifier': 'laser_filters', 'dependencies': OrderedDict()}
+[0.002753] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002928] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.003184] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.003254] (robot_nav) JobQueued: {'identifier': 'robot_nav', 'dependencies': OrderedDict()}
+[0.003317] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.003378] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict({'micro_ros_msgs': '/home/rasp/ros2_ws/install/micro_ros_msgs'})}
+[0.003457] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.064644] (gpio_nav_control) JobStarted: {'identifier': 'gpio_nav_control'}
+[0.099174] (-) TimerEvent: {}
+[0.109857] (laser_filters) JobStarted: {'identifier': 'laser_filters'}
+[0.139330] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.178547] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.185489] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.187853] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[0.199341] (-) TimerEvent: {}
+[0.300082] (-) TimerEvent: {}
+[0.400844] (-) TimerEvent: {}
+[0.501492] (-) TimerEvent: {}
+[0.602218] (-) TimerEvent: {}
+[0.702879] (-) TimerEvent: {}
+[0.803551] (-) TimerEvent: {}
+[0.904264] (-) TimerEvent: {}
+[1.006877] (-) TimerEvent: {}
+[1.107561] (-) TimerEvent: {}
+[1.209872] (-) TimerEvent: {}
+[1.310870] (-) TimerEvent: {}
+[1.415282] (-) TimerEvent: {}
+[1.516836] (-) TimerEvent: {}
+[1.618944] (-) TimerEvent: {}
+[1.683103] (laser_filters) JobProgress: {'identifier': 'laser_filters', 'progress': 'cmake'}
+[1.693454] (laser_filters) JobProgress: {'identifier': 'laser_filters', 'progress': 'build'}
+[1.693637] (laser_filters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/laser_filters', '--', '-j4', '-l4'], 'cwd': '/home/rasp/ros2_ws/build/laser_filters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/laser_filters', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[1.722237] (-) TimerEvent: {}
+[1.726335] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target micro_ros_msgs__rosidl_generator_type_description\n'}
+[1.727199] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[1.727818] (micro_ros_msgs) StdoutLine: {'line': b'[  3%] Built target micro_ros_msgs__cpp\n'}
+[1.733071] (micro_ros_msgs) StdoutLine: {'line': b'[ 24%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[1.743655] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[1.762529] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[1.762804] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/rf2o_laser_odometry', '--', '-j4', '-l4'], 'cwd': '/home/rasp/ros2_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/rf2o_laser_odometry', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[1.824993] (-) TimerEvent: {}
+[1.926065] (-) TimerEvent: {}
+[2.030867] (-) TimerEvent: {}
+[2.131768] (-) TimerEvent: {}
+[2.163107] (micro_ros_msgs) StdoutLine: {'line': b'[ 33%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.213827] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[2.223055] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.233053] (-) TimerEvent: {}
+[2.334865] (-) TimerEvent: {}
+[2.438294] (-) TimerEvent: {}
+[2.543650] (-) TimerEvent: {}
+[2.647180] (-) TimerEvent: {}
+[2.752936] (-) TimerEvent: {}
+[2.809095] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.849264] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[2.858202] (-) TimerEvent: {}
+[2.932389] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[2.962425] (-) TimerEvent: {}
+[3.083893] (-) TimerEvent: {}
+[3.215010] (-) TimerEvent: {}
+[3.233881] (laser_filters) StdoutLine: {'line': b'[  8%] Built target gtest_main\n'}
+[3.295872] (laser_filters) StdoutLine: {'line': b'[ 17%] Built target scan_to_cloud_filter_chain\n'}
+[3.306855] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs\n'}
+[3.315247] (-) TimerEvent: {}
+[3.365342] (laser_filters) StdoutLine: {'line': b'[ 26%] Built target scan_to_scan_filter_chain\n'}
+[3.430650] (-) TimerEvent: {}
+[3.440055] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] Built target rf2o_laser_odometry\n'}
+[3.493690] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[3.534883] (-) TimerEvent: {}
+[3.560091] (laser_filters) StdoutLine: {'line': b'[ 34%] Built target laser_scan_filters\n'}
+[3.644054] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[3.645556] (-) TimerEvent: {}
+[3.658688] (laser_filters) StdoutLine: {'line': b'[ 43%] Built target gtest\n'}
+[3.687233] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[3.746142] (-) TimerEvent: {}
+[3.755173] (micro_ros_msgs) StdoutLine: {'line': b'[ 81%] Built target micro_ros_msgs__py\n'}
+[3.848108] (-) TimerEvent: {}
+[3.933905] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/rf2o_laser_odometry'], 'cwd': '/home/rasp/ros2_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/rf2o_laser_odometry', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[3.954854] (-) TimerEvent: {}
+[3.980295] (laser_filters) StdoutLine: {'line': b'[ 52%] Built target test_shadow_detector\n'}
+[4.047887] (laser_filters) StdoutLine: {'line': b'[ 60%] Built target test_scan_filter_chain\n'}
+[4.058940] (-) TimerEvent: {}
+[4.063566] (laser_filters) StdoutLine: {'line': b'[ 73%] Built target laser_filter_chains\n'}
+[4.140151] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.160921] (-) TimerEvent: {}
+[4.169921] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[4.174858] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch\n'}
+[4.175547] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[4.176314] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[4.179549] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[4.183701] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[4.184372] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[4.188212] (laser_filters) StdoutLine: {'line': b'[ 82%] Built target test_speckle_filter\n'}
+[4.188851] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[4.189552] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[4.190209] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[4.190695] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[4.193753] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[4.194375] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[4.194942] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[4.206499] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[4.207183] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[4.207610] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[4.208144] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[4.229911] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[4.265904] (-) TimerEvent: {}
+[4.329322] (micro_ros_msgs) StdoutLine: {'line': b'[ 88%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[4.376491] (-) TimerEvent: {}
+[4.434630] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[4.453755] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[4.454028] (laser_filters) StdoutLine: {'line': b'[ 91%] Built target test_scan_shadows_filter\n'}
+[4.479119] (-) TimerEvent: {}
+[4.581898] (-) TimerEvent: {}
+[4.620289] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.685970] (-) TimerEvent: {}
+[4.688647] (laser_filters) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/generic_laser_filter_node.dir/src/generic_laser_filter_node.cpp.o\x1b[0m\n'}
+[4.788903] (micro_ros_msgs) StdoutLine: {'line': b'[ 92%] Built target micro_ros_msgs_s__rosidl_typesupport_c\n'}
+[4.790183] (-) TimerEvent: {}
+[4.805183] (micro_ros_msgs) StdoutLine: {'line': b'[ 96%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[4.875315] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c\n'}
+[4.890977] (-) TimerEvent: {}
+[4.917040] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[4.918134] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[4.919115] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[4.992958] (-) TimerEvent: {}
+[5.093904] (-) TimerEvent: {}
+[5.196162] (-) TimerEvent: {}
+[5.298108] (-) TimerEvent: {}
+[5.399514] (-) TimerEvent: {}
+[5.480527] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[5.485560] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[5.499819] (-) TimerEvent: {}
+[5.605244] (-) TimerEvent: {}
+[5.706846] (-) TimerEvent: {}
+[5.711045] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[5.807049] (-) TimerEvent: {}
+[5.909166] (-) TimerEvent: {}
+[6.010825] (-) TimerEvent: {}
+[6.112677] (-) TimerEvent: {}
+[6.214080] (-) TimerEvent: {}
+[6.318288] (-) TimerEvent: {}
+[6.333854] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[6.349616] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[6.349864] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/micro_ros_msgs'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_msgs', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[6.418922] (-) TimerEvent: {}
+[6.421708] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.422637] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[6.425535] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json\n'}
+[6.426277] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json\n'}
+[6.426874] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json\n'}
+[6.433852] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.438705] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.439438] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.440191] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[6.440967] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.442043] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[6.444151] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[6.447167] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[6.447919] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c\n'}
+[6.448474] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[6.452016] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[6.452761] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[6.453420] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[6.454117] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[6.458425] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[6.459249] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[6.459999] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[6.462569] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[6.464425] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c\n'}
+[6.464899] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[6.465471] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[6.469254] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c\n'}
+[6.470823] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[6.475554] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[6.476119] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[6.476508] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[6.477291] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[6.482864] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[6.485644] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.486705] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.487545] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.488134] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.488640] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[6.489218] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[6.489883] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[6.494871] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.497146] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.497867] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.500679] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.501571] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[6.506604] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[6.507540] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[6.509835] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[6.511888] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[6.512461] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[6.517845] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.519067] (-) TimerEvent: {}
+[6.524612] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.539375] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[6.541312] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.549232] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.553325] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.554499] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[6.557980] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[6.558923] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.560751] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[6.562200] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[6.563025] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[6.563748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[6.564858] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[6.565469] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[6.566219] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[6.566798] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[6.568396] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[6.571261] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[6.571888] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[6.572494] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[6.574480] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[6.575006] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.575366] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.575829] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.576458] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.577046] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.577542] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[6.578177] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.578627] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.579172] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.579579] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[6.580120] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[6.580555] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[6.581036] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[6.581477] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[6.582069] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.582566] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[6.583214] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.583768] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.587948] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.597995] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[6.599809] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[6.602123] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[6.602702] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info\n'}
+[6.604024] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt\n'}
+[6.604856] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt\n'}
+[6.605952] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO\n'}
+[6.608090] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt\n'}
+[6.609287] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs\n'}
+[6.610896] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg\n'}
+[6.612360] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[6.613280] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[6.614386] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py\n'}
+[6.615669] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py\n'}
+[6.616829] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py\n'}
+[6.617434] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py\n'}
+[6.617963] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[6.618528] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[6.619167] (-) TimerEvent: {}
+[6.619777] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[6.620351] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.620827] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py\n'}
+[6.621507] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.622328] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.622947] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.719364] (-) TimerEvent: {}
+[6.820073] (-) TimerEvent: {}
+[6.837401] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...\n"}
+[6.840919] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...\n"}
+[6.882394] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.888439] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[6.894788] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[6.906243] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[6.907768] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[6.908803] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[6.909372] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[6.909975] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[6.910549] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[6.911045] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[6.911430] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[6.916856] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[6.922516] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[6.923161] (-) TimerEvent: {}
+[6.925748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[6.926376] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[6.928476] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[6.930139] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[6.931405] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[6.932064] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[6.932517] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[6.934225] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[6.936052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[6.947086] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[6.947785] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.954237] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.955433] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.959058] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.959756] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.963659] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.966665] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.970029] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.977520] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.978199] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.985749] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.986543] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.989358] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.994516] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.995809] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.997697] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.999075] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.003307] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.004265] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.004936] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.005404] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.005865] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.006352] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.006824] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[7.007299] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[7.007702] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[7.018003] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[7.023462] (-) TimerEvent: {}
+[7.131870] (-) TimerEvent: {}
+[7.148237] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[7.153026] (robot_nav) JobStarted: {'identifier': 'robot_nav'}
+[7.200523] (robot_nav) JobProgress: {'identifier': 'robot_nav', 'progress': 'cmake'}
+[7.207219] (robot_nav) JobProgress: {'identifier': 'robot_nav', 'progress': 'build'}
+[7.215876] (robot_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/robot_nav', '--', '-j4', '-l4'], 'cwd': '/home/rasp/ros2_ws/build/robot_nav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/robot_nav', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[7.232064] (-) TimerEvent: {}
+[7.333331] (-) TimerEvent: {}
+[7.434250] (-) TimerEvent: {}
+[7.537232] (-) TimerEvent: {}
+[7.640122] (-) TimerEvent: {}
+[7.652278] (robot_nav) CommandEnded: {'returncode': 0}
+[7.658302] (robot_nav) JobProgress: {'identifier': 'robot_nav', 'progress': 'install'}
+[7.662020] (robot_nav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/robot_nav'], 'cwd': '/home/rasp/ros2_ws/build/robot_nav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/robot_nav', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[7.730946] (robot_nav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.733103] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch\n'}
+[7.738654] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/amcl.launch.py\n'}
+[7.743464] (-) TimerEvent: {}
+[7.746203] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/localization_launch.py\n'}
+[7.747465] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/bringup_launch.py\n'}
+[7.749187] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/slam_launch.py\n'}
+[7.753970] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/navigation_launch.py\n'}
+[7.754774] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/rviz_launch.py\n'}
+[7.755478] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map\n'}
+[7.756184] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1741862448.yaml\n'}
+[7.757113] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1742316237.yaml\n'}
+[7.759045] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1742316237.pgm\n'}
+[7.760439] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1741862448.pgm\n'}
+[7.761701] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config\n'}
+[7.763137] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config/nav2_params.yaml\n'}
+[7.764051] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config/mapper_params_online_async.yaml\n'}
+[7.765620] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/package_run_dependencies/robot_nav\n'}
+[7.766534] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/parent_prefix_path/robot_nav\n'}
+[7.767189] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.sh\n'}
+[7.768826] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.dsv\n'}
+[7.771857] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/path.sh\n'}
+[7.773285] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/path.dsv\n'}
+[7.776928] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.bash\n'}
+[7.777547] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.sh\n'}
+[7.778469] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.zsh\n'}
+[7.778996] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.dsv\n'}
+[7.779417] (robot_nav) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.dsv\n'}
+[7.781851] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/packages/robot_nav\n'}
+[7.783030] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig.cmake\n'}
+[7.783984] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig-version.cmake\n'}
+[7.784533] (robot_nav) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.xml\n'}
+[7.794432] (robot_nav) CommandEnded: {'returncode': 0}
+[7.845324] (-) TimerEvent: {}
+[7.876605] (robot_nav) JobEnded: {'identifier': 'robot_nav', 'rc': 0}
+[7.881935] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[7.941877] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[7.945927] (-) TimerEvent: {}
+[7.951286] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[7.959530] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/rasp/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/sllidar_ros2', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[8.050603] (-) TimerEvent: {}
+[8.151658] (-) TimerEvent: {}
+[8.253098] (-) TimerEvent: {}
+[8.357039] (-) TimerEvent: {}
+[8.473879] (-) TimerEvent: {}
+[8.582859] (-) TimerEvent: {}
+[8.694852] (-) TimerEvent: {}
+[8.765160] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[8.801883] (-) TimerEvent: {}
+[8.831844] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[8.907923] (-) TimerEvent: {}
+[8.917794] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[8.934650] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[8.934876] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/rasp/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/sllidar_ros2', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[9.008293] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.010021] (-) TimerEvent: {}
+[9.012611] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[9.013461] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[9.018877] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[9.021574] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[9.022322] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[9.022922] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[9.023488] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[9.030166] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[9.030712] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[9.031343] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[9.031962] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[9.032477] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[9.041178] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[9.041756] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[9.042291] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[9.042761] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[9.043289] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[9.047869] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[9.048990] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[9.049503] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[9.050058] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[9.050672] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[9.054970] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[9.055503] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[9.056077] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[9.056563] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[9.061350] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[9.061963] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[9.074874] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[9.075549] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[9.080495] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[9.081236] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[9.086598] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[9.088014] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[9.097510] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[9.098917] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[9.105379] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[9.106280] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[9.110313] (-) TimerEvent: {}
+[9.112321] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[9.113223] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[9.118426] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[9.127126] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.128852] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.129504] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[9.134430] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[9.135327] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[9.150696] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[9.210485] (-) TimerEvent: {}
+[9.291190] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[9.300916] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[9.310667] (-) TimerEvent: {}
+[9.412880] (-) TimerEvent: {}
+[9.434969] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[9.451838] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[9.452033] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_agent', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[9.513908] (-) TimerEvent: {}
+[9.618342] (-) TimerEvent: {}
+[9.721625] (-) TimerEvent: {}
+[9.826902] (-) TimerEvent: {}
+[9.928059] (-) TimerEvent: {}
+[10.029407] (-) TimerEvent: {}
+[10.131675] (-) TimerEvent: {}
+[10.196085] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[10.209710] (gpio_nav_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gpio_nav_control', 'build', '--build-base', '/home/rasp/ros2_ws/build/gpio_nav_control/build', 'install', '--record', '/home/rasp/ros2_ws/build/gpio_nav_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rasp/ros2_ws/src/gpio_nav_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/gpio_nav_control', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/build/gpio_nav_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[10.231880] (-) TimerEvent: {}
+[10.285471] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[10.302443] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[10.302640] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/micro_ros_agent'], 'cwd': '/home/rasp/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/micro_ros_agent', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[10.334857] (-) TimerEvent: {}
+[10.380373] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.381500] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[10.383237] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[10.386548] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[10.389195] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[10.393608] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[10.394220] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[10.394629] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[10.397182] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[10.398978] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[10.399763] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[10.400512] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[10.404616] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[10.409412] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.410143] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[10.410697] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[10.411399] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[10.416574] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[10.418378] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[10.423347] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[10.435024] (-) TimerEvent: {}
+[10.445780] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[10.535404] (-) TimerEvent: {}
+[10.636222] (-) TimerEvent: {}
+[10.682768] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[10.738809] (-) TimerEvent: {}
+[10.839683] (-) TimerEvent: {}
+[10.941584] (-) TimerEvent: {}
+[11.045214] (-) TimerEvent: {}
+[11.146226] (-) TimerEvent: {}
+[11.249428] (-) TimerEvent: {}
+[11.354968] (-) TimerEvent: {}
+[11.396030] (robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_description', 'build', '--build-base', '/home/rasp/ros2_ws/build/robot_description/build', 'install', '--record', '/home/rasp/ros2_ws/build/robot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rasp/ros2_ws/src/robot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/robot_description', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[11.455167] (-) TimerEvent: {}
+[11.558431] (-) TimerEvent: {}
+[11.663377] (-) TimerEvent: {}
+[11.764352] (-) TimerEvent: {}
+[11.867325] (-) TimerEvent: {}
+[11.971242] (-) TimerEvent: {}
+[12.072208] (-) TimerEvent: {}
+[12.176877] (-) TimerEvent: {}
+[12.277620] (-) TimerEvent: {}
+[12.378530] (-) TimerEvent: {}
+[12.481884] (-) TimerEvent: {}
+[12.582772] (-) TimerEvent: {}
+[12.603085] (gpio_nav_control) StdoutLine: {'line': b'running egg_info\n'}
+[12.682993] (-) TimerEvent: {}
+[12.784078] (-) TimerEvent: {}
+[12.826858] (gpio_nav_control) StdoutLine: {'line': b'writing ../../build/gpio_nav_control/gpio_nav_control.egg-info/PKG-INFO\n'}
+[12.830269] (gpio_nav_control) StdoutLine: {'line': b'writing dependency_links to ../../build/gpio_nav_control/gpio_nav_control.egg-info/dependency_links.txt\n'}
+[12.833564] (gpio_nav_control) StdoutLine: {'line': b'writing entry points to ../../build/gpio_nav_control/gpio_nav_control.egg-info/entry_points.txt\n'}
+[12.834452] (gpio_nav_control) StdoutLine: {'line': b'writing requirements to ../../build/gpio_nav_control/gpio_nav_control.egg-info/requires.txt\n'}
+[12.837813] (gpio_nav_control) StdoutLine: {'line': b'writing top-level names to ../../build/gpio_nav_control/gpio_nav_control.egg-info/top_level.txt\n'}
+[12.885887] (-) TimerEvent: {}
+[12.987862] (-) TimerEvent: {}
+[13.092375] (-) TimerEvent: {}
+[13.193388] (-) TimerEvent: {}
+[13.274483] (gpio_nav_control) StdoutLine: {'line': b"reading manifest file '../../build/gpio_nav_control/gpio_nav_control.egg-info/SOURCES.txt'\n"}
+[13.280883] (gpio_nav_control) StdoutLine: {'line': b"writing manifest file '../../build/gpio_nav_control/gpio_nav_control.egg-info/SOURCES.txt'\n"}
+[13.283988] (gpio_nav_control) StdoutLine: {'line': b'running build\n'}
+[13.284688] (gpio_nav_control) StdoutLine: {'line': b'running build_py\n'}
+[13.289883] (gpio_nav_control) StdoutLine: {'line': b'running install\n'}
+[13.295921] (-) TimerEvent: {}
+[13.327661] (gpio_nav_control) StdoutLine: {'line': b'running install_lib\n'}
+[13.398899] (-) TimerEvent: {}
+[13.499670] (-) TimerEvent: {}
+[13.532460] (gpio_nav_control) StdoutLine: {'line': b'running install_data\n'}
+[13.534645] (gpio_nav_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.599922] (-) TimerEvent: {}
+[13.701693] (-) TimerEvent: {}
+[13.735058] (gpio_nav_control) StdoutLine: {'line': b"removing '/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages/gpio_nav_control-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[13.736594] (gpio_nav_control) StdoutLine: {'line': b'Copying ../../build/gpio_nav_control/gpio_nav_control.egg-info to /home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages/gpio_nav_control-0.0.1-py3.12.egg-info\n'}
+[13.748884] (gpio_nav_control) StdoutLine: {'line': b'running install_scripts\n'}
+[13.758438] (robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[13.803886] (-) TimerEvent: {}
+[13.904600] (-) TimerEvent: {}
+[13.968467] (robot_description) StdoutLine: {'line': b'writing ../../build/robot_description/robot_description.egg-info/PKG-INFO\n'}
+[13.972890] (robot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt\n'}
+[13.975747] (robot_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt\n'}
+[13.977895] (robot_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt\n'}
+[14.005947] (-) TimerEvent: {}
+[14.108881] (-) TimerEvent: {}
+[14.209662] (-) TimerEvent: {}
+[14.310472] (-) TimerEvent: {}
+[14.371434] (robot_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[14.380146] (robot_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[14.380936] (robot_description) StdoutLine: {'line': b'running build\n'}
+[14.381519] (robot_description) StdoutLine: {'line': b'running build_py\n'}
+[14.388886] (robot_description) StdoutLine: {'line': b'running install\n'}
+[14.410678] (-) TimerEvent: {}
+[14.415558] (robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[14.511872] (-) TimerEvent: {}
+[14.582761] (robot_description) StdoutLine: {'line': b'running install_data\n'}
+[14.593057] (robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.614964] (-) TimerEvent: {}
+[14.716127] (-) TimerEvent: {}
+[14.817009] (-) TimerEvent: {}
+[14.824034] (robot_description) StdoutLine: {'line': b"removing '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[14.830600] (robot_description) StdoutLine: {'line': b'Copying ../../build/robot_description/robot_description.egg-info to /home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info\n'}
+[14.839039] (robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[14.919341] (-) TimerEvent: {}
+[15.023888] (-) TimerEvent: {}
+[15.054677] (gpio_nav_control) StdoutLine: {'line': b'Installing button_control script to /home/rasp/ros2_ws/install/gpio_nav_control/lib/gpio_nav_control\n'}
+[15.058123] (gpio_nav_control) StdoutLine: {'line': b"writing list of installed files to '/home/rasp/ros2_ws/build/gpio_nav_control/install.log'\n"}
+[15.125989] (-) TimerEvent: {}
+[15.229900] (-) TimerEvent: {}
+[15.307054] (gpio_nav_control) CommandEnded: {'returncode': 0}
+[15.331272] (-) TimerEvent: {}
+[15.353356] (gpio_nav_control) JobEnded: {'identifier': 'gpio_nav_control', 'rc': 0}
+[15.431456] (-) TimerEvent: {}
+[15.532258] (-) TimerEvent: {}
+[15.633851] (-) TimerEvent: {}
+[15.734543] (-) TimerEvent: {}
+[15.835299] (-) TimerEvent: {}
+[15.936128] (-) TimerEvent: {}
+[16.037565] (-) TimerEvent: {}
+[16.140880] (-) TimerEvent: {}
+[16.149160] (robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/rasp/ros2_ws/build/robot_description/install.log'\n"}
+[16.241249] (-) TimerEvent: {}
+[16.342984] (robot_description) CommandEnded: {'returncode': 0}
+[16.344282] (-) TimerEvent: {}
+[16.385520] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[16.444548] (-) TimerEvent: {}
+[16.545336] (-) TimerEvent: {}
+[16.646246] (-) TimerEvent: {}
+[16.747186] (-) TimerEvent: {}
+[16.847858] (-) TimerEvent: {}
+[16.948474] (-) TimerEvent: {}
+[17.049219] (-) TimerEvent: {}
+[17.149927] (-) TimerEvent: {}
+[17.250706] (-) TimerEvent: {}
+[17.351439] (-) TimerEvent: {}
+[17.452273] (-) TimerEvent: {}
+[17.552905] (-) TimerEvent: {}
+[17.653525] (-) TimerEvent: {}
+[17.754174] (-) TimerEvent: {}
+[17.854889] (-) TimerEvent: {}
+[17.955809] (-) TimerEvent: {}
+[18.056599] (-) TimerEvent: {}
+[18.157291] (-) TimerEvent: {}
+[18.258052] (-) TimerEvent: {}
+[18.358850] (-) TimerEvent: {}
+[18.459531] (-) TimerEvent: {}
+[18.560220] (-) TimerEvent: {}
+[18.660889] (-) TimerEvent: {}
+[18.761556] (-) TimerEvent: {}
+[18.862274] (-) TimerEvent: {}
+[18.962982] (-) TimerEvent: {}
+[19.063580] (-) TimerEvent: {}
+[19.164272] (-) TimerEvent: {}
+[19.264933] (-) TimerEvent: {}
+[19.365599] (-) TimerEvent: {}
+[19.466390] (-) TimerEvent: {}
+[19.567456] (-) TimerEvent: {}
+[19.668187] (-) TimerEvent: {}
+[19.768881] (-) TimerEvent: {}
+[19.869519] (-) TimerEvent: {}
+[19.970308] (-) TimerEvent: {}
+[20.071110] (-) TimerEvent: {}
+[20.171792] (-) TimerEvent: {}
+[20.272463] (-) TimerEvent: {}
+[20.373299] (-) TimerEvent: {}
+[20.473911] (-) TimerEvent: {}
+[20.574557] (-) TimerEvent: {}
+[20.675259] (-) TimerEvent: {}
+[20.776039] (-) TimerEvent: {}
+[20.876804] (-) TimerEvent: {}
+[20.977599] (-) TimerEvent: {}
+[21.078267] (-) TimerEvent: {}
+[21.178958] (-) TimerEvent: {}
+[21.279626] (-) TimerEvent: {}
+[21.380309] (-) TimerEvent: {}
+[21.480927] (-) TimerEvent: {}
+[21.581505] (-) TimerEvent: {}
+[21.682113] (-) TimerEvent: {}
+[21.782706] (-) TimerEvent: {}
+[21.883346] (-) TimerEvent: {}
+[21.984118] (-) TimerEvent: {}
+[22.085111] (-) TimerEvent: {}
+[22.185965] (-) TimerEvent: {}
+[22.286999] (-) TimerEvent: {}
+[22.388398] (-) TimerEvent: {}
+[22.489254] (-) TimerEvent: {}
+[22.590156] (-) TimerEvent: {}
+[22.690895] (-) TimerEvent: {}
+[22.791615] (-) TimerEvent: {}
+[22.892319] (-) TimerEvent: {}
+[22.993000] (-) TimerEvent: {}
+[23.093668] (-) TimerEvent: {}
+[23.194311] (-) TimerEvent: {}
+[23.294932] (-) TimerEvent: {}
+[23.395617] (-) TimerEvent: {}
+[23.496392] (-) TimerEvent: {}
+[23.597276] (-) TimerEvent: {}
+[23.698978] (-) TimerEvent: {}
+[23.799679] (-) TimerEvent: {}
+[23.900420] (-) TimerEvent: {}
+[24.001241] (-) TimerEvent: {}
+[24.101858] (-) TimerEvent: {}
+[24.202470] (-) TimerEvent: {}
+[24.303211] (-) TimerEvent: {}
+[24.403818] (-) TimerEvent: {}
+[24.504376] (-) TimerEvent: {}
+[24.605137] (-) TimerEvent: {}
+[24.705969] (-) TimerEvent: {}
+[24.806861] (-) TimerEvent: {}
+[24.908015] (-) TimerEvent: {}
+[25.008695] (-) TimerEvent: {}
+[25.109370] (-) TimerEvent: {}
+[25.210114] (-) TimerEvent: {}
+[25.310937] (-) TimerEvent: {}
+[25.411684] (-) TimerEvent: {}
+[25.537780] (-) TimerEvent: {}
+[25.638450] (-) TimerEvent: {}
+[25.739120] (-) TimerEvent: {}
+[25.839774] (-) TimerEvent: {}
+[25.940370] (-) TimerEvent: {}
+[26.041012] (-) TimerEvent: {}
+[26.141647] (-) TimerEvent: {}
+[26.242466] (-) TimerEvent: {}
+[26.343266] (-) TimerEvent: {}
+[26.444441] (-) TimerEvent: {}
+[26.545155] (-) TimerEvent: {}
+[26.645881] (-) TimerEvent: {}
+[26.746710] (-) TimerEvent: {}
+[26.847966] (-) TimerEvent: {}
+[26.948563] (-) TimerEvent: {}
+[27.049212] (-) TimerEvent: {}
+[27.149840] (-) TimerEvent: {}
+[27.250434] (-) TimerEvent: {}
+[27.351094] (-) TimerEvent: {}
+[27.451788] (-) TimerEvent: {}
+[27.552516] (-) TimerEvent: {}
+[27.653235] (-) TimerEvent: {}
+[27.753910] (-) TimerEvent: {}
+[27.854619] (-) TimerEvent: {}
+[27.955461] (-) TimerEvent: {}
+[28.056547] (-) TimerEvent: {}
+[28.157286] (-) TimerEvent: {}
+[28.258074] (-) TimerEvent: {}
+[28.358826] (-) TimerEvent: {}
+[28.459531] (-) TimerEvent: {}
+[28.560222] (-) TimerEvent: {}
+[28.660861] (-) TimerEvent: {}
+[28.761515] (-) TimerEvent: {}
+[28.862214] (-) TimerEvent: {}
+[28.963075] (-) TimerEvent: {}
+[29.063851] (-) TimerEvent: {}
+[29.164814] (-) TimerEvent: {}
+[29.265672] (-) TimerEvent: {}
+[29.366335] (-) TimerEvent: {}
+[29.467096] (-) TimerEvent: {}
+[29.567827] (-) TimerEvent: {}
+[29.668480] (-) TimerEvent: {}
+[29.769111] (-) TimerEvent: {}
+[29.869705] (-) TimerEvent: {}
+[29.970399] (-) TimerEvent: {}
+[30.071046] (-) TimerEvent: {}
+[30.171658] (-) TimerEvent: {}
+[30.272405] (-) TimerEvent: {}
+[30.373251] (-) TimerEvent: {}
+[30.473993] (-) TimerEvent: {}
+[30.574934] (-) TimerEvent: {}
+[30.675690] (-) TimerEvent: {}
+[30.776561] (-) TimerEvent: {}
+[30.877539] (-) TimerEvent: {}
+[30.978371] (-) TimerEvent: {}
+[31.079707] (-) TimerEvent: {}
+[31.180511] (-) TimerEvent: {}
+[31.281172] (-) TimerEvent: {}
+[31.381789] (-) TimerEvent: {}
+[31.482413] (-) TimerEvent: {}
+[31.583066] (-) TimerEvent: {}
+[31.683692] (-) TimerEvent: {}
+[31.784404] (-) TimerEvent: {}
+[31.885106] (-) TimerEvent: {}
+[31.985784] (-) TimerEvent: {}
+[32.086478] (-) TimerEvent: {}
+[32.187223] (-) TimerEvent: {}
+[32.287852] (-) TimerEvent: {}
+[32.388479] (-) TimerEvent: {}
+[32.489220] (-) TimerEvent: {}
+[32.589823] (-) TimerEvent: {}
+[32.690408] (-) TimerEvent: {}
+[32.791137] (-) TimerEvent: {}
+[32.891980] (-) TimerEvent: {}
+[32.992933] (-) TimerEvent: {}
+[33.093983] (-) TimerEvent: {}
+[33.194646] (-) TimerEvent: {}
+[33.295518] (-) TimerEvent: {}
+[33.396267] (-) TimerEvent: {}
+[33.497564] (-) TimerEvent: {}
+[33.598268] (-) TimerEvent: {}
+[33.698993] (-) TimerEvent: {}
+[33.799855] (-) TimerEvent: {}
+[33.900586] (-) TimerEvent: {}
+[34.001275] (-) TimerEvent: {}
+[34.101982] (-) TimerEvent: {}
+[34.202564] (-) TimerEvent: {}
+[34.303198] (-) TimerEvent: {}
+[34.403899] (-) TimerEvent: {}
+[34.504606] (-) TimerEvent: {}
+[34.605377] (-) TimerEvent: {}
+[34.706260] (-) TimerEvent: {}
+[34.806994] (-) TimerEvent: {}
+[34.908100] (-) TimerEvent: {}
+[35.008914] (-) TimerEvent: {}
+[35.110195] (-) TimerEvent: {}
+[35.210836] (-) TimerEvent: {}
+[35.312016] (-) TimerEvent: {}
+[35.412603] (-) TimerEvent: {}
+[35.513375] (-) TimerEvent: {}
+[35.614425] (-) TimerEvent: {}
+[35.715222] (-) TimerEvent: {}
+[35.815914] (-) TimerEvent: {}
+[35.916551] (-) TimerEvent: {}
+[36.017308] (-) TimerEvent: {}
+[36.118118] (-) TimerEvent: {}
+[36.218883] (-) TimerEvent: {}
+[36.319578] (-) TimerEvent: {}
+[36.420423] (-) TimerEvent: {}
+[36.521184] (-) TimerEvent: {}
+[36.621866] (-) TimerEvent: {}
+[36.722581] (-) TimerEvent: {}
+[36.823644] (-) TimerEvent: {}
+[36.924353] (-) TimerEvent: {}
+[37.024932] (-) TimerEvent: {}
+[37.125556] (-) TimerEvent: {}
+[37.226226] (-) TimerEvent: {}
+[37.326992] (-) TimerEvent: {}
+[37.428132] (-) TimerEvent: {}
+[37.528831] (-) TimerEvent: {}
+[37.629483] (-) TimerEvent: {}
+[37.730176] (-) TimerEvent: {}
+[37.830872] (-) TimerEvent: {}
+[37.931617] (-) TimerEvent: {}
+[38.032268] (-) TimerEvent: {}
+[38.132865] (-) TimerEvent: {}
+[38.233453] (-) TimerEvent: {}
+[38.334073] (-) TimerEvent: {}
+[38.434681] (-) TimerEvent: {}
+[38.535412] (-) TimerEvent: {}
+[38.636208] (-) TimerEvent: {}
+[38.736960] (-) TimerEvent: {}
+[38.837670] (-) TimerEvent: {}
+[38.938542] (-) TimerEvent: {}
+[39.039810] (-) TimerEvent: {}
+[39.140785] (-) TimerEvent: {}
+[39.241453] (-) TimerEvent: {}
+[39.342219] (-) TimerEvent: {}
+[39.442998] (-) TimerEvent: {}
+[39.543641] (-) TimerEvent: {}
+[39.644287] (-) TimerEvent: {}
+[39.744896] (-) TimerEvent: {}
+[39.845534] (-) TimerEvent: {}
+[39.946319] (-) TimerEvent: {}
+[40.047073] (-) TimerEvent: {}
+[40.148480] (-) TimerEvent: {}
+[40.249870] (-) TimerEvent: {}
+[40.350618] (-) TimerEvent: {}
+[40.451386] (-) TimerEvent: {}
+[40.552086] (-) TimerEvent: {}
+[40.652778] (-) TimerEvent: {}
+[40.753468] (-) TimerEvent: {}
+[40.854121] (-) TimerEvent: {}
+[40.954935] (-) TimerEvent: {}
+[41.056177] (-) TimerEvent: {}
+[41.157487] (-) TimerEvent: {}
+[41.258438] (-) TimerEvent: {}
+[41.359847] (-) TimerEvent: {}
+[41.461344] (-) TimerEvent: {}
+[41.562114] (-) TimerEvent: {}
+[41.662914] (-) TimerEvent: {}
+[41.763596] (-) TimerEvent: {}
+[41.864295] (-) TimerEvent: {}
+[41.965028] (-) TimerEvent: {}
+[42.065692] (-) TimerEvent: {}
+[42.166418] (-) TimerEvent: {}
+[42.267258] (-) TimerEvent: {}
+[42.368090] (-) TimerEvent: {}
+[42.468798] (-) TimerEvent: {}
+[42.569393] (-) TimerEvent: {}
+[42.670043] (-) TimerEvent: {}
+[42.770628] (-) TimerEvent: {}
+[42.871349] (-) TimerEvent: {}
+[42.972157] (-) TimerEvent: {}
+[43.072906] (-) TimerEvent: {}
+[43.173860] (-) TimerEvent: {}
+[43.274489] (-) TimerEvent: {}
+[43.375327] (-) TimerEvent: {}
+[43.476055] (-) TimerEvent: {}
+[43.576695] (-) TimerEvent: {}
+[43.677315] (-) TimerEvent: {}
+[43.777950] (-) TimerEvent: {}
+[43.878541] (-) TimerEvent: {}
+[43.979386] (-) TimerEvent: {}
+[44.080554] (-) TimerEvent: {}
+[44.181260] (-) TimerEvent: {}
+[44.281938] (-) TimerEvent: {}
+[44.382585] (-) TimerEvent: {}
+[44.483397] (-) TimerEvent: {}
+[44.584217] (-) TimerEvent: {}
+[44.684915] (-) TimerEvent: {}
+[44.785610] (-) TimerEvent: {}
+[44.886363] (-) TimerEvent: {}
+[44.987118] (-) TimerEvent: {}
+[45.087850] (-) TimerEvent: {}
+[45.188428] (-) TimerEvent: {}
+[45.289100] (-) TimerEvent: {}
+[45.389799] (-) TimerEvent: {}
+[45.490412] (-) TimerEvent: {}
+[45.591071] (-) TimerEvent: {}
+[45.691665] (-) TimerEvent: {}
+[45.792334] (-) TimerEvent: {}
+[45.893186] (-) TimerEvent: {}
+[45.994144] (-) TimerEvent: {}
+[46.095104] (-) TimerEvent: {}
+[46.196483] (-) TimerEvent: {}
+[46.297270] (-) TimerEvent: {}
+[46.398005] (-) TimerEvent: {}
+[46.498690] (-) TimerEvent: {}
+[46.599472] (-) TimerEvent: {}
+[46.700300] (-) TimerEvent: {}
+[46.800878] (-) TimerEvent: {}
+[46.901515] (-) TimerEvent: {}
+[47.002422] (-) TimerEvent: {}
+[47.103450] (-) TimerEvent: {}
+[47.204413] (-) TimerEvent: {}
+[47.305109] (-) TimerEvent: {}
+[47.405851] (-) TimerEvent: {}
+[47.506499] (-) TimerEvent: {}
+[47.607294] (-) TimerEvent: {}
+[47.708087] (-) TimerEvent: {}
+[47.808797] (-) TimerEvent: {}
+[47.909470] (-) TimerEvent: {}
+[48.010299] (-) TimerEvent: {}
+[48.111096] (-) TimerEvent: {}
+[48.211897] (-) TimerEvent: {}
+[48.312519] (-) TimerEvent: {}
+[48.413196] (-) TimerEvent: {}
+[48.513809] (-) TimerEvent: {}
+[48.614557] (-) TimerEvent: {}
+[48.715871] (-) TimerEvent: {}
+[48.816476] (-) TimerEvent: {}
+[48.917162] (-) TimerEvent: {}
+[49.017956] (-) TimerEvent: {}
+[49.119018] (-) TimerEvent: {}
+[49.219762] (-) TimerEvent: {}
+[49.320447] (-) TimerEvent: {}
+[49.421128] (-) TimerEvent: {}
+[49.521852] (-) TimerEvent: {}
+[49.622445] (-) TimerEvent: {}
+[49.723092] (-) TimerEvent: {}
+[49.823831] (-) TimerEvent: {}
+[49.924651] (-) TimerEvent: {}
+[50.025487] (-) TimerEvent: {}
+[50.126588] (-) TimerEvent: {}
+[50.227363] (-) TimerEvent: {}
+[50.328118] (-) TimerEvent: {}
+[50.428842] (-) TimerEvent: {}
+[50.529491] (-) TimerEvent: {}
+[50.630227] (-) TimerEvent: {}
+[50.730913] (-) TimerEvent: {}
+[50.831803] (-) TimerEvent: {}
+[50.932442] (-) TimerEvent: {}
+[51.033102] (-) TimerEvent: {}
+[51.133698] (-) TimerEvent: {}
+[51.234328] (-) TimerEvent: {}
+[51.334959] (-) TimerEvent: {}
+[51.435617] (-) TimerEvent: {}
+[51.536360] (-) TimerEvent: {}
+[51.637180] (-) TimerEvent: {}
+[51.737892] (-) TimerEvent: {}
+[51.838582] (-) TimerEvent: {}
+[51.939379] (-) TimerEvent: {}
+[52.040026] (-) TimerEvent: {}
+[52.140676] (-) TimerEvent: {}
+[52.241484] (-) TimerEvent: {}
+[52.342169] (-) TimerEvent: {}
+[52.442799] (-) TimerEvent: {}
+[52.543423] (-) TimerEvent: {}
+[52.644212] (-) TimerEvent: {}
+[52.744996] (-) TimerEvent: {}
+[52.845992] (-) TimerEvent: {}
+[52.946659] (-) TimerEvent: {}
+[53.047393] (-) TimerEvent: {}
+[53.148147] (-) TimerEvent: {}
+[53.248900] (-) TimerEvent: {}
+[53.349570] (-) TimerEvent: {}
+[53.450330] (-) TimerEvent: {}
+[53.551149] (-) TimerEvent: {}
+[53.651852] (-) TimerEvent: {}
+[53.752486] (-) TimerEvent: {}
+[53.853224] (-) TimerEvent: {}
+[53.953832] (-) TimerEvent: {}
+[54.054417] (-) TimerEvent: {}
+[54.155109] (-) TimerEvent: {}
+[54.255880] (-) TimerEvent: {}
+[54.356655] (-) TimerEvent: {}
+[54.457435] (-) TimerEvent: {}
+[54.558212] (-) TimerEvent: {}
+[54.659265] (-) TimerEvent: {}
+[54.759903] (-) TimerEvent: {}
+[54.860545] (-) TimerEvent: {}
+[54.961826] (-) TimerEvent: {}
+[55.062447] (-) TimerEvent: {}
+[55.163685] (-) TimerEvent: {}
+[55.264581] (-) TimerEvent: {}
+[55.366647] (-) TimerEvent: {}
+[55.467421] (-) TimerEvent: {}
+[55.568881] (-) TimerEvent: {}
+[55.669814] (-) TimerEvent: {}
+[55.771100] (-) TimerEvent: {}
+[55.871841] (-) TimerEvent: {}
+[55.972517] (-) TimerEvent: {}
+[56.073350] (-) TimerEvent: {}
+[56.174098] (-) TimerEvent: {}
+[56.274905] (-) TimerEvent: {}
+[56.375611] (-) TimerEvent: {}
+[56.476293] (-) TimerEvent: {}
+[56.576952] (-) TimerEvent: {}
+[56.677611] (-) TimerEvent: {}
+[56.778279] (-) TimerEvent: {}
+[56.878921] (-) TimerEvent: {}
+[56.979899] (-) TimerEvent: {}
+[57.080889] (-) TimerEvent: {}
+[57.181832] (-) TimerEvent: {}
+[57.282498] (-) TimerEvent: {}
+[57.383223] (-) TimerEvent: {}
+[57.483937] (-) TimerEvent: {}
+[57.584631] (-) TimerEvent: {}
+[57.685314] (-) TimerEvent: {}
+[57.785937] (-) TimerEvent: {}
+[57.886534] (-) TimerEvent: {}
+[57.987306] (-) TimerEvent: {}
+[58.088499] (-) TimerEvent: {}
+[58.189372] (-) TimerEvent: {}
+[58.290139] (-) TimerEvent: {}
+[58.390826] (-) TimerEvent: {}
+[58.491525] (-) TimerEvent: {}
+[58.592305] (-) TimerEvent: {}
+[58.693082] (-) TimerEvent: {}
+[58.794333] (-) TimerEvent: {}
+[58.895079] (-) TimerEvent: {}
+[58.995818] (-) TimerEvent: {}
+[59.096458] (-) TimerEvent: {}
+[59.197166] (-) TimerEvent: {}
+[59.297818] (-) TimerEvent: {}
+[59.398419] (-) TimerEvent: {}
+[59.499050] (-) TimerEvent: {}
+[59.599669] (-) TimerEvent: {}
+[59.700388] (-) TimerEvent: {}
+[59.801187] (-) TimerEvent: {}
+[59.902243] (-) TimerEvent: {}
+[60.002967] (-) TimerEvent: {}
+[60.103789] (-) TimerEvent: {}
+[60.204623] (-) TimerEvent: {}
+[60.305704] (-) TimerEvent: {}
+[60.406349] (-) TimerEvent: {}
+[60.506977] (-) TimerEvent: {}
+[60.607573] (-) TimerEvent: {}
+[60.708214] (-) TimerEvent: {}
+[60.808839] (-) TimerEvent: {}
+[60.909446] (-) TimerEvent: {}
+[61.010186] (-) TimerEvent: {}
+[61.110868] (-) TimerEvent: {}
+[61.211590] (-) TimerEvent: {}
+[61.312516] (-) TimerEvent: {}
+[61.413538] (-) TimerEvent: {}
+[61.514842] (-) TimerEvent: {}
+[61.615477] (-) TimerEvent: {}
+[61.716279] (-) TimerEvent: {}
+[61.817064] (-) TimerEvent: {}
+[61.917770] (-) TimerEvent: {}
+[62.018431] (-) TimerEvent: {}
+[62.119197] (-) TimerEvent: {}
+[62.219832] (-) TimerEvent: {}
+[62.320433] (-) TimerEvent: {}
+[62.421102] (-) TimerEvent: {}
+[62.521803] (-) TimerEvent: {}
+[62.622475] (-) TimerEvent: {}
+[62.723246] (-) TimerEvent: {}
+[62.824023] (-) TimerEvent: {}
+[62.924899] (-) TimerEvent: {}
+[63.025663] (-) TimerEvent: {}
+[63.126364] (-) TimerEvent: {}
+[63.227096] (-) TimerEvent: {}
+[63.327675] (-) TimerEvent: {}
+[63.428312] (-) TimerEvent: {}
+[63.529024] (-) TimerEvent: {}
+[63.629752] (-) TimerEvent: {}
+[63.730645] (-) TimerEvent: {}
+[63.831786] (-) TimerEvent: {}
+[63.932448] (-) TimerEvent: {}
+[64.033440] (-) TimerEvent: {}
+[64.134268] (-) TimerEvent: {}
+[64.235347] (-) TimerEvent: {}
+[64.336509] (-) TimerEvent: {}
+[64.437513] (-) TimerEvent: {}
+[64.538181] (-) TimerEvent: {}
+[64.639037] (-) TimerEvent: {}
+[64.739684] (-) TimerEvent: {}
+[64.840321] (-) TimerEvent: {}
+[64.940970] (-) TimerEvent: {}
+[65.041548] (-) TimerEvent: {}
+[65.142186] (-) TimerEvent: {}
+[65.242948] (-) TimerEvent: {}
+[65.343849] (-) TimerEvent: {}
+[65.444473] (-) TimerEvent: {}
+[65.545270] (-) TimerEvent: {}
+[65.646131] (-) TimerEvent: {}
+[65.746791] (-) TimerEvent: {}
+[65.847362] (-) TimerEvent: {}
+[65.947959] (-) TimerEvent: {}
+[66.048625] (-) TimerEvent: {}
+[66.149315] (-) TimerEvent: {}
+[66.250104] (-) TimerEvent: {}
+[66.350802] (-) TimerEvent: {}
+[66.451542] (-) TimerEvent: {}
+[66.552402] (-) TimerEvent: {}
+[66.653331] (-) TimerEvent: {}
+[66.754083] (-) TimerEvent: {}
+[66.855092] (-) TimerEvent: {}
+[66.955820] (-) TimerEvent: {}
+[67.056495] (-) TimerEvent: {}
+[67.157155] (-) TimerEvent: {}
+[67.257761] (-) TimerEvent: {}
+[67.358479] (-) TimerEvent: {}
+[67.460379] (-) TimerEvent: {}
+[67.561601] (-) TimerEvent: {}
+[67.662363] (-) TimerEvent: {}
+[67.763105] (-) TimerEvent: {}
+[67.863900] (-) TimerEvent: {}
+[67.964949] (-) TimerEvent: {}
+[68.066199] (-) TimerEvent: {}
+[68.166921] (-) TimerEvent: {}
+[68.267816] (-) TimerEvent: {}
+[68.368473] (-) TimerEvent: {}
+[68.430373] (laser_filters) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable generic_laser_filter_node\x1b[0m\n'}
+[68.468690] (-) TimerEvent: {}
+[68.569315] (-) TimerEvent: {}
+[68.669870] (-) TimerEvent: {}
+[68.770601] (-) TimerEvent: {}
+[68.871259] (-) TimerEvent: {}
+[68.971887] (-) TimerEvent: {}
+[69.072565] (-) TimerEvent: {}
+[69.173280] (-) TimerEvent: {}
+[69.274079] (-) TimerEvent: {}
+[69.375592] (-) TimerEvent: {}
+[69.476848] (-) TimerEvent: {}
+[69.578039] (-) TimerEvent: {}
+[69.679133] (-) TimerEvent: {}
+[69.780150] (-) TimerEvent: {}
+[69.881033] (-) TimerEvent: {}
+[69.982032] (-) TimerEvent: {}
+[70.083315] (-) TimerEvent: {}
+[70.183871] (-) TimerEvent: {}
+[70.284526] (-) TimerEvent: {}
+[70.385291] (-) TimerEvent: {}
+[70.486049] (-) TimerEvent: {}
+[70.586709] (-) TimerEvent: {}
+[70.687673] (-) TimerEvent: {}
+[70.788835] (-) TimerEvent: {}
+[70.889810] (-) TimerEvent: {}
+[70.990673] (-) TimerEvent: {}
+[71.091771] (-) TimerEvent: {}
+[71.192657] (-) TimerEvent: {}
+[71.293671] (-) TimerEvent: {}
+[71.394665] (-) TimerEvent: {}
+[71.495528] (-) TimerEvent: {}
+[71.596427] (-) TimerEvent: {}
+[71.697291] (-) TimerEvent: {}
+[71.797944] (-) TimerEvent: {}
+[71.898530] (-) TimerEvent: {}
+[71.999322] (-) TimerEvent: {}
+[72.100149] (-) TimerEvent: {}
+[72.200962] (-) TimerEvent: {}
+[72.301860] (-) TimerEvent: {}
+[72.402659] (-) TimerEvent: {}
+[72.503629] (-) TimerEvent: {}
+[72.529588] (laser_filters) StdoutLine: {'line': b'[100%] Built target generic_laser_filter_node\n'}
+[72.603941] (-) TimerEvent: {}
+[72.605703] (laser_filters) CommandEnded: {'returncode': 0}
+[72.610874] (laser_filters) JobProgress: {'identifier': 'laser_filters', 'progress': 'install'}
+[72.611929] (laser_filters) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/laser_filters'], 'cwd': '/home/rasp/ros2_ws/build/laser_filters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/laser_filters', 'SSH_CONNECTION': 'fe80::d408:37b1:dedf:d1b5%wlan0 10744 fe80::2ecf:67ff:fe9d:bb6b%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy'}), 'shell': False}
+[72.680116] (laser_filters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[72.684573] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain\n'}
+[72.689326] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain\n'}
+[72.690903] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/laser_filters_plugins.xml\n'}
+[72.691528] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include\n'}
+[72.692037] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters\n'}
+[72.693056] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/footprint_filter.h\n'}
+[72.693631] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h\n'}
+[72.694187] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/intensity_filter.h\n'}
+[72.694851] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/polygon_filter.h\n'}
+[72.695269] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_shadow_detector.h\n'}
+[72.695635] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/box_filter.h\n'}
+[72.696091] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/sector_filter.h\n'}
+[72.696458] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/array_filter.h\n'}
+[72.696990] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/median_filter.h\n'}
+[72.698045] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/interpolation_filter.h\n'}
+[72.698553] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h\n'}
+[72.698968] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h\n'}
+[72.699344] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h\n'}
+[72.699685] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/range_filter.h\n'}
+[72.700036] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/speckle_filter.h\n'}
+[72.700359] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/median_spatial_filter.h\n'}
+[72.700688] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/include/laser_filters/scan_blob_filter.h\n'}
+[72.701070] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/library_path.sh\n'}
+[72.701478] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/library_path.dsv\n'}
+[72.702156] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/liblaser_scan_filters.so\n'}
+[72.704074] (-) TimerEvent: {}
+[72.707189] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/lib/liblaser_filter_chains.so\n'}
+[72.713001] (laser_filters) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node\n'}
+[72.765969] (laser_filters) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/rasp/ros2_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node" to ""\n'}
+[72.766690] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples\n'}
+[72.768308] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.yaml\n'}
+[72.769112] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch.py\n'}
+[72.769751] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch\n'}
+[72.770446] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.yaml\n'}
+[72.771420] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch.py\n'}
+[72.772230] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter_example.yaml\n'}
+[72.772969] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.xml\n'}
+[72.773619] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.yaml\n'}
+[72.774271] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.launch.py\n'}
+[72.774710] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_spatial_filter.launch.py\n'}
+[72.775382] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.yaml\n'}
+[72.776003] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.yaml\n'}
+[72.776508] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.launch.py\n'}
+[72.777188] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml\n'}
+[72.777949] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.yaml\n'}
+[72.778451] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch.py\n'}
+[72.778908] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/median_filter_example.launch.py\n'}
+[72.779319] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch.py\n'}
+[72.779675] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.yaml\n'}
+[72.780422] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch.py\n'}
+[72.781032] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch.py\n'}
+[72.781540] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch.py\n'}
+[72.782333] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/angular_filter_example.launch.py\n'}
+[72.782828] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.yaml\n'}
+[72.783337] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml\n'}
+[72.784017] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml\n'}
+[72.785790] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/scan_blob_filter_example.launch.py\n'}
+[72.787413] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml\n'}
+[72.789446] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch.py\n'}
+[72.790528] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml\n'}
+[72.791073] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml\n'}
+[72.791453] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test\n'}
+[72.791941] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.launch\n'}
+[72.792378] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.cpp\n'}
+[72.792880] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_shadows_filter.cpp\n'}
+[72.793625] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.yaml\n'}
+[72.794227] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/fake_laser.py\n'}
+[72.794952] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.test.py\n'}
+[72.795385] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_shadow_detector.cpp\n'}
+[72.796338] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.yaml\n'}
+[72.797053] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_speckle_filter.yaml\n'}
+[72.797918] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_scan_filter_chain.cpp\n'}
+[72.798866] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/test/test_polygon_filter.test.py\n'}
+[72.799758] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/package_run_dependencies/laser_filters\n'}
+[72.800228] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/parent_prefix_path/laser_filters\n'}
+[72.800655] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.sh\n'}
+[72.801685] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/ament_prefix_path.dsv\n'}
+[72.802262] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/path.sh\n'}
+[72.802693] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/environment/path.dsv\n'}
+[72.803408] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.bash\n'}
+[72.803975] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.sh\n'}
+[72.804386] (-) TimerEvent: {}
+[72.805084] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.zsh\n'}
+[72.805669] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/local_setup.dsv\n'}
+[72.806149] (laser_filters) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/package.dsv\n'}
+[72.806506] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/packages/laser_filters\n'}
+[72.807017] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/filters__pluginlib__plugin/laser_filters\n'}
+[72.807762] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/ament_index/resource_index/rclcpp_components/laser_filters\n'}
+[72.808212] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[72.808562] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[72.808971] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[72.809335] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake\n'}
+[72.809673] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake\n'}
+[72.810175] (laser_filters) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/laser_filters/share/laser_filters/package.xml\n'}
+[72.811953] (laser_filters) CommandEnded: {'returncode': 0}
+[72.900595] (laser_filters) JobEnded: {'identifier': 'laser_filters', 'rc': 0}
+[72.903298] (-) EventReactorShutdown: {}

@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001498] (-) JobUnselected: {'identifier': 'gpio_nav_control'}
+[0.002416] (-) JobUnselected: {'identifier': 'laser_filters'}
+[0.002592] (-) JobUnselected: {'identifier': 'lidar_chassis_filter'}
+[0.002661] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002724] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.002787] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.002848] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.002907] (-) JobUnselected: {'identifier': 'robot_nav'}
+[0.003003] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003071] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict()}
+[0.003145] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[0.099257] (-) TimerEvent: {}
+[0.199779] (-) TimerEvent: {}
+[0.300356] (-) TimerEvent: {}
+[0.401192] (-) TimerEvent: {}
+[0.501853] (-) TimerEvent: {}
+[0.602420] (-) TimerEvent: {}
+[0.702991] (-) TimerEvent: {}
+[0.803578] (-) TimerEvent: {}
+[0.904142] (-) TimerEvent: {}
+[1.004702] (-) TimerEvent: {}
+[1.105358] (-) TimerEvent: {}
+[1.206587] (-) TimerEvent: {}
+[1.307441] (-) TimerEvent: {}
+[1.408647] (-) TimerEvent: {}
+[1.509268] (-) TimerEvent: {}
+[1.609785] (-) TimerEvent: {}
+[1.710366] (-) TimerEvent: {}
+[1.811789] (-) TimerEvent: {}
+[1.913025] (-) TimerEvent: {}
+[2.013727] (-) TimerEvent: {}
+[2.114584] (-) TimerEvent: {}
+[2.215274] (-) TimerEvent: {}
+[2.316128] (-) TimerEvent: {}
+[2.416797] (-) TimerEvent: {}
+[2.517830] (-) TimerEvent: {}
+[2.618522] (-) TimerEvent: {}
+[2.719220] (-) TimerEvent: {}
+[2.819880] (-) TimerEvent: {}
+[2.920572] (-) TimerEvent: {}
+[3.021160] (-) TimerEvent: {}
+[3.121640] (-) TimerEvent: {}
+[3.222193] (-) TimerEvent: {}
+[3.322891] (-) TimerEvent: {}
+[3.423819] (-) TimerEvent: {}
+[3.524508] (-) TimerEvent: {}
+[3.625517] (-) TimerEvent: {}
+[3.726353] (-) TimerEvent: {}
+[3.827174] (-) TimerEvent: {}
+[3.927786] (-) TimerEvent: {}
+[4.028346] (-) TimerEvent: {}
+[4.128838] (-) TimerEvent: {}
+[4.229389] (-) TimerEvent: {}
+[4.329970] (-) TimerEvent: {}
+[4.430525] (-) TimerEvent: {}
+[4.531065] (-) TimerEvent: {}
+[4.631634] (-) TimerEvent: {}
+[4.732264] (-) TimerEvent: {}
+[4.832859] (-) TimerEvent: {}
+[4.933566] (-) TimerEvent: {}
+[5.034349] (-) TimerEvent: {}
+[5.135527] (-) TimerEvent: {}
+[5.236733] (-) TimerEvent: {}
+[5.240030] (my_robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_bringup', 'build', '--build-base', '/home/rasp/ros2_ws/build/my_robot_bringup/build', 'install', '--record', '/home/rasp/ros2_ws/build/my_robot_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rasp/ros2_ws/src/my_robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': '2a01:cc00:c861:b500:45df:8d65:ad64:eacf 55689 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/my_robot_bringup:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/lidar_chassis_filter:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/my_robot_bringup', 'SSH_CONNECTION': '2a01:cc00:c861:b500:45df:8d65:ad64:eacf 55689 2a01:cc00:c861:b500:da3a:ddff:feee:e429 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.336979] (-) TimerEvent: {}
+[5.438173] (-) TimerEvent: {}
+[5.539316] (-) TimerEvent: {}
+[5.639883] (-) TimerEvent: {}
+[5.740492] (-) TimerEvent: {}
+[5.841250] (-) TimerEvent: {}
+[5.941987] (-) TimerEvent: {}
+[6.042851] (-) TimerEvent: {}
+[6.143552] (-) TimerEvent: {}
+[6.244449] (-) TimerEvent: {}
+[6.345027] (-) TimerEvent: {}
+[6.445560] (-) TimerEvent: {}
+[6.546103] (-) TimerEvent: {}
+[6.646608] (-) TimerEvent: {}
+[6.745582] (my_robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[6.746752] (-) TimerEvent: {}
+[6.847352] (-) TimerEvent: {}
+[6.870287] (my_robot_bringup) StdoutLine: {'line': b'writing ../../build/my_robot_bringup/my_robot_bringup.egg-info/PKG-INFO\n'}
+[6.874085] (my_robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_bringup/my_robot_bringup.egg-info/dependency_links.txt\n'}
+[6.876414] (my_robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_bringup/my_robot_bringup.egg-info/requires.txt\n'}
+[6.877495] (my_robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_bringup/my_robot_bringup.egg-info/top_level.txt\n'}
+[6.947538] (-) TimerEvent: {}
+[7.048238] (-) TimerEvent: {}
+[7.140562] (my_robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_bringup/my_robot_bringup.egg-info/SOURCES.txt'\n"}
+[7.145138] (my_robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_bringup/my_robot_bringup.egg-info/SOURCES.txt'\n"}
+[7.145901] (my_robot_bringup) StdoutLine: {'line': b'running build\n'}
+[7.146493] (my_robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[7.148355] (-) TimerEvent: {}
+[7.149244] (my_robot_bringup) StdoutLine: {'line': b'running install\n'}
+[7.174678] (my_robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[7.248539] (-) TimerEvent: {}
+[7.315067] (my_robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[7.317197] (my_robot_bringup) StdoutLine: {'line': b'copying launch/full_slam_system.launch.py -> /home/rasp/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch\n'}
+[7.317936] (my_robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.348671] (-) TimerEvent: {}
+[7.415152] (my_robot_bringup) StdoutLine: {'line': b"removing '/home/rasp/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages/my_robot_bringup-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[7.416717] (my_robot_bringup) StdoutLine: {'line': b'Copying ../../build/my_robot_bringup/my_robot_bringup.egg-info to /home/rasp/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages/my_robot_bringup-0.0.1-py3.12.egg-info\n'}
+[7.422061] (my_robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[7.448815] (-) TimerEvent: {}
+[7.549408] (-) TimerEvent: {}
+[7.650053] (-) TimerEvent: {}
+[7.750659] (-) TimerEvent: {}
+[7.851225] (-) TimerEvent: {}
+[7.951775] (-) TimerEvent: {}
+[8.052673] (-) TimerEvent: {}
+[8.154073] (-) TimerEvent: {}
+[8.197203] (my_robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/rasp/ros2_ws/build/my_robot_bringup/install.log'\n"}
+[8.254342] (-) TimerEvent: {}
+[8.355273] (-) TimerEvent: {}
+[8.373122] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[8.436471] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 0}
+[8.439803] (-) EventReactorShutdown: {}

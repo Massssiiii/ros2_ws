@@ -1,0 +1,2 @@
+[console_scripts]
+button_control = gpio_nav_control.button_control:main

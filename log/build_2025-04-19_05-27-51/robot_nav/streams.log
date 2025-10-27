@@ -1,0 +1,35 @@
+[1.380s] Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/robot_nav -- -j4 -l4
+[1.751s] Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/robot_nav -- -j4 -l4
+[1.753s] Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/robot_nav
+[2.049s] -- Install configuration: ""
+[2.050s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch
+[2.053s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/amcl.launch.py
+[2.058s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/localization_launch.py
+[2.059s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/bringup_launch.py
+[2.062s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/slam_launch.py
+[2.063s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/navigation_launch.py
+[2.068s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/rviz_launch.py
+[2.070s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map
+[2.074s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1741862448.yaml
+[2.075s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1742316237.yaml
+[2.076s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1742316237.pgm
+[2.082s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1741862448.pgm
+[2.083s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config
+[2.087s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config/nav2_params.yaml
+[2.098s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config/mapper_params_online_async.yaml
+[2.103s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/package_run_dependencies/robot_nav
+[2.106s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/parent_prefix_path/robot_nav
+[2.109s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.sh
+[2.112s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.dsv
+[2.116s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/path.sh
+[2.118s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/path.dsv
+[2.121s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.bash
+[2.124s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.sh
+[2.126s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.zsh
+[2.132s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.dsv
+[2.133s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.dsv
+[2.140s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/packages/robot_nav
+[2.146s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig.cmake
+[2.148s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig-version.cmake
+[2.153s] -- Up-to-date: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.xml
+[2.427s] Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/robot_nav

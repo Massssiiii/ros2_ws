@@ -1,0 +1,2 @@
+[0.089s] Invoking command in '/home/rasp/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/rf2o_laser_odometry
+[1.059s] -- The C compiler identification is GNU 13.3.0

@@ -1,0 +1,2 @@
+Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/robot_nav
+Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/robot_nav

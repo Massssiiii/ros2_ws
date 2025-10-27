@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gpio-nav-control
+Version: 0.0.1
+Summary: Contrôle de navigation ROS2 avec boutons GPIO
+Maintainer: votre_nom
+Maintainer-email: votre_email@domaine.com
+License: Apache License 2.0

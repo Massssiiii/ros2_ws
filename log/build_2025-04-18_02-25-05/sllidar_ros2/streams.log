@@ -1,0 +1,53 @@
+[0.078s] Invoking command in '/home/rasp/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[0.893s] [ 10%] Built target sllidar_client
+[1.020s] [100%] Built target sllidar_node
+[1.188s] Invoked command in '/home/rasp/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.193s] Invoking command in '/home/rasp/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/sllidar_ros2
+[1.342s] -- Install configuration: ""
+[1.343s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[1.347s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.347s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.348s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.358s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.358s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.359s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.359s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.360s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.370s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.374s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.374s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.390s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.390s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.391s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.393s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.393s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.394s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.395s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.395s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.396s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.399s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.399s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.400s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.404s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.404s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[1.405s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.405s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.406s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.410s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.410s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.411s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.412s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.419s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.420s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.424s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.439s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.441s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.443s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.444s] -- Installing: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.449s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.452s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.453s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.457s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.458s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.459s] -- Up-to-date: /home/rasp/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[1.475s] Invoked command in '/home/rasp/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/sllidar_ros2

@@ -1,0 +1,5 @@
+  File "/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages/gpio_nav_control/button_control.py", line 378
+    duration = (abs distance / speed)
+                ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

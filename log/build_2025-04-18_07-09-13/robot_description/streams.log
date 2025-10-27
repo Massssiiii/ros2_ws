@@ -1,0 +1,19 @@
+[7.298s] Invoking command in '/home/rasp/ros2_ws/src/robot_description': PYTHONPATH=/home/rasp/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/rasp/ros2_ws/build/robot_description/build install --record /home/rasp/ros2_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[9.161s] running egg_info
+[9.287s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[9.288s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[9.290s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[9.291s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[9.505s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[9.509s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[9.510s] running build
+[9.510s] running build_py
+[9.511s] running install
+[9.536s] running install_lib
+[9.641s] running install_data
+[9.644s] running install_egg_info
+[9.776s] removing '/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info' (and everything under it)
+[9.778s] Copying ../../build/robot_description/robot_description.egg-info to /home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info
+[9.783s] running install_scripts
+[10.631s] writing list of installed files to '/home/rasp/ros2_ws/build/robot_description/install.log'
+[10.793s] Invoked command in '/home/rasp/ros2_ws/src/robot_description' returned '0': PYTHONPATH=/home/rasp/ros2_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/rasp/ros2_ws/build/robot_description/build install --record /home/rasp/ros2_ws/build/robot_description/install.log --single-version-externally-managed install_data

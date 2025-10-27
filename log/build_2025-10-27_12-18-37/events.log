@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000901] (-) JobUnselected: {'identifier': 'gpio_nav_control'}
+[0.001837] (-) JobUnselected: {'identifier': 'laser_filters'}
+[0.001937] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002006] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.002073] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.002137] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.002200] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.002262] (-) JobUnselected: {'identifier': 'robot_nav'}
+[0.002342] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002860] (lidar_chassis_filter) JobQueued: {'identifier': 'lidar_chassis_filter', 'dependencies': OrderedDict()}
+[0.002949] (lidar_chassis_filter) JobStarted: {'identifier': 'lidar_chassis_filter'}
+[0.099256] (-) TimerEvent: {}
+[0.199990] (-) TimerEvent: {}
+[0.300631] (-) TimerEvent: {}
+[0.401290] (-) TimerEvent: {}
+[0.501908] (-) TimerEvent: {}
+[0.602526] (-) TimerEvent: {}
+[0.703151] (-) TimerEvent: {}
+[0.803962] (-) TimerEvent: {}
+[0.904857] (-) TimerEvent: {}
+[1.005390] (-) TimerEvent: {}
+[1.106137] (-) TimerEvent: {}
+[1.207745] (-) TimerEvent: {}
+[1.308650] (-) TimerEvent: {}
+[1.409358] (-) TimerEvent: {}
+[1.509933] (-) TimerEvent: {}
+[1.610518] (-) TimerEvent: {}
+[1.711061] (-) TimerEvent: {}
+[1.811631] (-) TimerEvent: {}
+[1.912201] (-) TimerEvent: {}
+[2.012809] (-) TimerEvent: {}
+[2.113430] (-) TimerEvent: {}
+[2.214171] (-) TimerEvent: {}
+[2.315553] (-) TimerEvent: {}
+[2.416579] (-) TimerEvent: {}
+[2.517599] (-) TimerEvent: {}
+[2.618147] (-) TimerEvent: {}
+[2.719085] (-) TimerEvent: {}
+[2.819663] (-) TimerEvent: {}
+[2.920247] (-) TimerEvent: {}
+[3.020876] (-) TimerEvent: {}
+[3.121530] (-) TimerEvent: {}
+[3.222105] (-) TimerEvent: {}
+[3.322721] (-) TimerEvent: {}
+[3.423280] (-) TimerEvent: {}
+[3.523873] (-) TimerEvent: {}
+[3.624594] (-) TimerEvent: {}
+[3.725199] (-) TimerEvent: {}
+[3.826183] (-) TimerEvent: {}
+[3.927177] (-) TimerEvent: {}
+[4.028199] (-) TimerEvent: {}
+[4.128766] (-) TimerEvent: {}
+[4.229351] (-) TimerEvent: {}
+[4.330418] (-) TimerEvent: {}
+[4.431112] (-) TimerEvent: {}
+[4.532092] (-) TimerEvent: {}
+[4.632868] (-) TimerEvent: {}
+[4.733772] (-) TimerEvent: {}
+[4.834381] (-) TimerEvent: {}
+[4.934923] (-) TimerEvent: {}
+[5.035599] (-) TimerEvent: {}
+[5.136423] (-) TimerEvent: {}
+[5.180817] (lidar_chassis_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_chassis_filter', 'build', '--build-base', '/home/rasp/ros2_ws/build/lidar_chassis_filter/build', 'install', '--record', '/home/rasp/ros2_ws/build/lidar_chassis_filter/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rasp/ros2_ws/src/lidar_chassis_filter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasp', 'SSH_CLIENT': '2a01:cc00:c861:b500:45df:8d65:ad64:eacf 50604 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rasp/ros2_ws/install/micro_ros_agent/lib:/home/rasp/ros2_ws/install/micro_ros_msgs/lib:/home/rasp/ros2_ws/install/laser_filters/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rasp', 'OLDPWD': '/home/rasp/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/rasp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rasp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/robot_description:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/my_robot_bringup:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/home/rasp/ros2_ws/install/gpio_nav_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rasp/ros2_ws/build/lidar_chassis_filter', 'SSH_CONNECTION': '2a01:cc00:c861:b500:45df:8d65:ad64:eacf 50604 2a01:cc00:c861:b500:da3a:ddff:feee:e429 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rasp/ros2_ws/build/lidar_chassis_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/robot_description/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/rasp/ros2_ws/install/gpio_nav_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rasp/ros2_ws/install/sllidar_ros2:/home/rasp/ros2_ws/install/robot_nav:/home/rasp/ros2_ws/install/rf2o_laser_odometry:/home/rasp/ros2_ws/install/micro_ros_agent:/home/rasp/ros2_ws/install/micro_ros_msgs:/home/rasp/ros2_ws/install/laser_filters:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.236598] (-) TimerEvent: {}
+[5.337258] (-) TimerEvent: {}
+[5.437944] (-) TimerEvent: {}
+[5.539062] (-) TimerEvent: {}
+[5.639760] (-) TimerEvent: {}
+[5.740375] (-) TimerEvent: {}
+[5.840961] (-) TimerEvent: {}
+[5.941598] (-) TimerEvent: {}
+[6.042111] (-) TimerEvent: {}
+[6.142688] (-) TimerEvent: {}
+[6.243247] (-) TimerEvent: {}
+[6.343984] (-) TimerEvent: {}
+[6.444644] (-) TimerEvent: {}
+[6.545185] (-) TimerEvent: {}
+[6.612891] (lidar_chassis_filter) StdoutLine: {'line': b'running egg_info\n'}
+[6.614175] (lidar_chassis_filter) StdoutLine: {'line': b'creating ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info\n'}
+[6.645365] (-) TimerEvent: {}
+[6.711168] (lidar_chassis_filter) StdoutLine: {'line': b'writing ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/PKG-INFO\n'}
+[6.712343] (lidar_chassis_filter) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/dependency_links.txt\n'}
+[6.713121] (lidar_chassis_filter) StdoutLine: {'line': b'writing entry points to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/entry_points.txt\n'}
+[6.713785] (lidar_chassis_filter) StdoutLine: {'line': b'writing requirements to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/requires.txt\n'}
+[6.714356] (lidar_chassis_filter) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/top_level.txt\n'}
+[6.714939] (lidar_chassis_filter) StdoutLine: {'line': b"writing manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'\n"}
+[6.745506] (-) TimerEvent: {}
+[6.846074] (-) TimerEvent: {}
+[6.946700] (-) TimerEvent: {}
+[6.961286] (lidar_chassis_filter) StdoutLine: {'line': b"reading manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'\n"}
+[6.966282] (lidar_chassis_filter) StdoutLine: {'line': b"writing manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'\n"}
+[6.967668] (lidar_chassis_filter) StdoutLine: {'line': b'running build\n'}
+[6.969135] (lidar_chassis_filter) StdoutLine: {'line': b'running build_py\n'}
+[6.970508] (lidar_chassis_filter) StdoutLine: {'line': b'creating /home/rasp/ros2_ws/build/lidar_chassis_filter/build\n'}
+[6.971211] (lidar_chassis_filter) StdoutLine: {'line': b'creating /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib\n'}
+[6.972180] (lidar_chassis_filter) StdoutLine: {'line': b'creating /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter\n'}
+[6.973051] (lidar_chassis_filter) StdoutLine: {'line': b'copying lidar_chassis_filter/__init__.py -> /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter\n'}
+[6.973767] (lidar_chassis_filter) StdoutLine: {'line': b'copying lidar_chassis_filter/lidar_chassis_filter_node.py -> /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter\n'}
+[6.974617] (lidar_chassis_filter) StdoutLine: {'line': b'running install\n'}
+[7.003992] (lidar_chassis_filter) StdoutLine: {'line': b'running install_lib\n'}
+[7.046866] (-) TimerEvent: {}
+[7.120453] (lidar_chassis_filter) StdoutLine: {'line': b'creating /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter\n'}
+[7.121128] (lidar_chassis_filter) StdoutLine: {'line': b'copying /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter/__init__.py -> /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter\n'}
+[7.121996] (lidar_chassis_filter) StdoutLine: {'line': b'copying /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter/lidar_chassis_filter_node.py -> /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter\n'}
+[7.124813] (lidar_chassis_filter) StdoutLine: {'line': b'byte-compiling /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter/__init__.py to __init__.cpython-312.pyc\n'}
+[7.126402] (lidar_chassis_filter) StdoutLine: {'line': b'byte-compiling /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter/lidar_chassis_filter_node.py to lidar_chassis_filter_node.cpython-312.pyc\n'}
+[7.133539] (lidar_chassis_filter) StdoutLine: {'line': b'running install_data\n'}
+[7.134211] (lidar_chassis_filter) StdoutLine: {'line': b'creating /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index\n'}
+[7.134912] (lidar_chassis_filter) StdoutLine: {'line': b'creating /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index/resource_index\n'}
+[7.135800] (lidar_chassis_filter) StdoutLine: {'line': b'creating /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index/resource_index/packages\n'}
+[7.136471] (lidar_chassis_filter) StdoutLine: {'line': b'copying resource/lidar_chassis_filter -> /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index/resource_index/packages\n'}
+[7.137097] (lidar_chassis_filter) StdoutLine: {'line': b'copying package.xml -> /home/rasp/ros2_ws/install/lidar_chassis_filter/share/lidar_chassis_filter\n'}
+[7.137688] (lidar_chassis_filter) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.147034] (-) TimerEvent: {}
+[7.247706] (-) TimerEvent: {}
+[7.272723] (lidar_chassis_filter) StdoutLine: {'line': b'Copying ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info to /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter-0.1.0-py3.12.egg-info\n'}
+[7.278988] (lidar_chassis_filter) StdoutLine: {'line': b'running install_scripts\n'}
+[7.347878] (-) TimerEvent: {}
+[7.448495] (-) TimerEvent: {}
+[7.549113] (-) TimerEvent: {}
+[7.650109] (-) TimerEvent: {}
+[7.750755] (-) TimerEvent: {}
+[7.851356] (-) TimerEvent: {}
+[7.951946] (-) TimerEvent: {}
+[8.052608] (-) TimerEvent: {}
+[8.087355] (lidar_chassis_filter) StdoutLine: {'line': b'Installing lidar_chassis_filter_node script to /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/lidar_chassis_filter\n'}
+[8.089219] (lidar_chassis_filter) StdoutLine: {'line': b"writing list of installed files to '/home/rasp/ros2_ws/build/lidar_chassis_filter/install.log'\n"}
+[8.152945] (-) TimerEvent: {}
+[8.253890] (-) TimerEvent: {}
+[8.257708] (lidar_chassis_filter) CommandEnded: {'returncode': 0}
+[8.323932] (lidar_chassis_filter) JobEnded: {'identifier': 'lidar_chassis_filter', 'rc': 0}
+[8.327212] (-) EventReactorShutdown: {}

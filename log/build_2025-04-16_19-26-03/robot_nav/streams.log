@@ -1,0 +1,54 @@
+[0.045s] Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/robot_nav
+[1.174s] -- The C compiler identification is GNU 13.3.0
+[1.580s] -- The CXX compiler identification is GNU 13.3.0
+[1.708s] -- Detecting C compiler ABI info
+[2.274s] -- Detecting C compiler ABI info - done
+[2.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.311s] -- Detecting C compile features
+[2.313s] -- Detecting C compile features - done
+[2.373s] -- Detecting CXX compiler ABI info
+[2.940s] -- Detecting CXX compiler ABI info - done
+[2.976s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.977s] -- Detecting CXX compile features
+[2.979s] -- Detecting CXX compile features - done
+[3.090s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.061s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.668s] -- Configuring done (5.6s)
+[5.688s] -- Generating done (0.0s)
+[5.695s] -- Build files have been written to: /home/rasp/ros2_ws/build/robot_nav
+[5.714s] Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/robot_nav
+[5.718s] Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/robot_nav
+[5.956s] Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake --build /home/rasp/ros2_ws/build/robot_nav
+[5.962s] Invoking command in '/home/rasp/ros2_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/robot_nav
+[6.013s] -- Install configuration: ""
+[6.014s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch
+[6.016s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/amcl.launch.py
+[6.017s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/localization_launch.py
+[6.019s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/bringup_launch.py
+[6.021s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/slam_launch.py
+[6.022s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/navigation_launch.py
+[6.024s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/launch/rviz_launch.py
+[6.026s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map
+[6.027s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1741862448.yaml
+[6.029s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1742316237.yaml
+[6.031s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1742316237.pgm
+[6.034s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/map/map_1741862448.pgm
+[6.042s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config
+[6.043s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config/nav2_params.yaml
+[6.045s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/config/mapper_params_online_async.yaml
+[6.048s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/package_run_dependencies/robot_nav
+[6.050s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/parent_prefix_path/robot_nav
+[6.053s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.sh
+[6.054s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.dsv
+[6.055s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/path.sh
+[6.056s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/environment/path.dsv
+[6.057s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.bash
+[6.058s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.sh
+[6.059s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.zsh
+[6.060s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/local_setup.dsv
+[6.061s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.dsv
+[6.063s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/ament_index/resource_index/packages/robot_nav
+[6.064s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig.cmake
+[6.065s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig-version.cmake
+[6.066s] -- Installing: /home/rasp/ros2_ws/install/robot_nav/share/robot_nav/package.xml
+[6.073s] Invoked command in '/home/rasp/ros2_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake --install /home/rasp/ros2_ws/build/robot_nav

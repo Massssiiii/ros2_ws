@@ -1,0 +1,2 @@
+[0.121s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_msgs
+[1.111s] -- The C compiler identification is GNU 13.3.0

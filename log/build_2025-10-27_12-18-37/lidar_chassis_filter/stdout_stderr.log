@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info
+writing ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/requires.txt
+writing top-level names to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/top_level.txt
+writing manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rasp/ros2_ws/build/lidar_chassis_filter/build
+creating /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib
+creating /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter
+copying lidar_chassis_filter/__init__.py -> /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter
+copying lidar_chassis_filter/lidar_chassis_filter_node.py -> /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter
+running install
+running install_lib
+creating /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter
+copying /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter/__init__.py -> /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter
+copying /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter/lidar_chassis_filter_node.py -> /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter
+byte-compiling /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter/lidar_chassis_filter_node.py to lidar_chassis_filter_node.cpython-312.pyc
+running install_data
+creating /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index
+creating /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index/resource_index
+creating /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index/resource_index/packages
+copying resource/lidar_chassis_filter -> /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index/resource_index/packages
+copying package.xml -> /home/rasp/ros2_ws/install/lidar_chassis_filter/share/lidar_chassis_filter
+running install_egg_info
+Copying ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info to /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter-0.1.0-py3.12.egg-info
+running install_scripts
+Installing lidar_chassis_filter_node script to /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/lidar_chassis_filter
+writing list of installed files to '/home/rasp/ros2_ws/build/lidar_chassis_filter/install.log'

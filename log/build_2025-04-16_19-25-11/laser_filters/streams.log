@@ -1,0 +1,42 @@
+[0.103s] Invoking command in '/home/rasp/ros2_ws/build/laser_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/laser_filters -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/laser_filters
+[0.505s] -- The C compiler identification is GNU 13.3.0
+[0.883s] -- The CXX compiler identification is GNU 13.3.0
+[0.998s] -- Detecting C compiler ABI info
+[1.654s] -- Detecting C compiler ABI info - done
+[1.703s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.708s] -- Detecting C compile features
+[1.709s] -- Detecting C compile features - done
+[1.781s] -- Detecting CXX compiler ABI info
+[2.474s] -- Detecting CXX compiler ABI info - done
+[2.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.516s] -- Detecting CXX compile features
+[2.520s] -- Detecting CXX compile features - done
+[2.574s] -- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[3.879s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.415s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[6.943s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.158s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.400s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.458s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.769s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[9.204s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[9.223s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[9.321s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[9.338s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[9.403s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[9.450s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.652s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[11.657s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.659s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.682s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[12.739s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.801s] -- Found Threads: TRUE  
+[14.031s] -- Found launch_testing_ament_cmake: 3.4.4 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[14.140s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[15.164s] -- Found PythonExtra: /usr/bin/python3  
+[15.176s] -- Configuring done (15.0s)
+[15.268s] Invoked command in '/home/rasp/ros2_ws/build/laser_filters' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/laser_filters -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/laser_filters

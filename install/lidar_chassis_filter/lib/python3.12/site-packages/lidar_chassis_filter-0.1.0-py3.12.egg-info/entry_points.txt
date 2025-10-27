@@ -1,0 +1,2 @@
+[console_scripts]
+lidar_chassis_filter_node = lidar_chassis_filter.lidar_chassis_filter_node:main

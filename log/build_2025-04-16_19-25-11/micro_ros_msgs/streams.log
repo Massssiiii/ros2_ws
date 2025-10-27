@@ -1,0 +1,22 @@
+[0.125s] Invoking command in '/home/rasp/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/ros2_ws/install/robot_description:/opt/ros/jazzy /usr/bin/cmake /home/rasp/ros2_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/micro_ros_msgs
+[0.535s] -- The C compiler identification is GNU 13.3.0
+[0.922s] -- The CXX compiler identification is GNU 13.3.0
+[1.028s] -- Detecting C compiler ABI info
+[1.692s] -- Detecting C compiler ABI info - done
+[1.745s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.747s] -- Detecting C compile features
+[1.751s] -- Detecting C compile features - done
+[1.812s] -- Detecting CXX compiler ABI info
+[2.502s] -- Detecting CXX compiler ABI info - done
+[2.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.553s] -- Detecting CXX compile features
+[2.557s] -- Detecting CXX compile features - done
+[2.608s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.823s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.053s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.558s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.614s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.547s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[13.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
