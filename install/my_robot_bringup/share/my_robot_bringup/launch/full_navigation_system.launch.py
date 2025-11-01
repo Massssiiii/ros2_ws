@@ -1,0 +1,1 @@
+/home/rasp/ros2_ws/build/my_robot_bringup/launch/full_navigation_system.launch.py

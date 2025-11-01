@@ -1,0 +1,29 @@
+[5.320s] Invoking command in '/home/rasp/ros2_ws/src/lidar_chassis_filter': PYTHONPATH=/home/rasp/ros2_ws/build/lidar_chassis_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_chassis_filter build --build-base /home/rasp/ros2_ws/build/lidar_chassis_filter/build install --record /home/rasp/ros2_ws/build/lidar_chassis_filter/install.log --single-version-externally-managed install_data
+[6.853s] running egg_info
+[6.977s] writing ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/PKG-INFO
+[6.979s] writing dependency_links to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/dependency_links.txt
+[6.981s] writing entry points to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/entry_points.txt
+[6.982s] writing requirements to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/requires.txt
+[6.984s] writing top-level names to ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/top_level.txt
+[7.198s] reading manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'
+[7.202s] writing manifest file '../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info/SOURCES.txt'
+[7.203s] running build
+[7.203s] running build_py
+[7.206s] copying lidar_chassis_filter/__init__.py -> /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter
+[7.207s] copying lidar_chassis_filter/lidar_chassis_filter_node.py -> /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter
+[7.208s] running install
+[7.232s] running install_lib
+[7.333s] copying /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter/__init__.py -> /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter
+[7.334s] copying /home/rasp/ros2_ws/build/lidar_chassis_filter/build/lib/lidar_chassis_filter/lidar_chassis_filter_node.py -> /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter
+[7.338s] byte-compiling /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter/__init__.py to __init__.cpython-312.pyc
+[7.339s] byte-compiling /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter/lidar_chassis_filter_node.py to lidar_chassis_filter_node.cpython-312.pyc
+[7.346s] running install_data
+[7.348s] copying resource/lidar_chassis_filter -> /home/rasp/ros2_ws/install/lidar_chassis_filter/share/ament_index/resource_index/packages
+[7.349s] copying package.xml -> /home/rasp/ros2_ws/install/lidar_chassis_filter/share/lidar_chassis_filter
+[7.350s] running install_egg_info
+[7.481s] removing '/home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter-0.1.0-py3.12.egg-info' (and everything under it)
+[7.483s] Copying ../../build/lidar_chassis_filter/lidar_chassis_filter.egg-info to /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages/lidar_chassis_filter-0.1.0-py3.12.egg-info
+[7.490s] running install_scripts
+[8.327s] Installing lidar_chassis_filter_node script to /home/rasp/ros2_ws/install/lidar_chassis_filter/lib/lidar_chassis_filter
+[8.329s] writing list of installed files to '/home/rasp/ros2_ws/build/lidar_chassis_filter/install.log'
+[8.490s] Invoked command in '/home/rasp/ros2_ws/src/lidar_chassis_filter' returned '0': PYTHONPATH=/home/rasp/ros2_ws/build/lidar_chassis_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/ros2_ws/install/lidar_chassis_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_chassis_filter build --build-base /home/rasp/ros2_ws/build/lidar_chassis_filter/build install --record /home/rasp/ros2_ws/build/lidar_chassis_filter/install.log --single-version-externally-managed install_data
