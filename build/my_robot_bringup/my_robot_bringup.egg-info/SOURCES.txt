@@ -7,9 +7,14 @@ setup.py
 ../../build/my_robot_bringup/my_robot_bringup.egg-info/requires.txt
 ../../build/my_robot_bringup/my_robot_bringup.egg-info/top_level.txt
 ../../build/my_robot_bringup/my_robot_bringup.egg-info/zip-safe
+config/nav2_params.yaml
+launch/full_navigation_system.launch.py
 launch/full_slam_system.launch.py
 my_robot_bringup/__init__.py
+my_robot_bringup.egg-info/PKG-INFO
+my_robot_bringup.egg-info/SOURCES.txt
+my_robot_bringup.egg-info/dependency_links.txt
+my_robot_bringup.egg-info/requires.txt
+my_robot_bringup.egg-info/top_level.txt
+my_robot_bringup.egg-info/zip-safe
 resource/my_robot_bringup
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

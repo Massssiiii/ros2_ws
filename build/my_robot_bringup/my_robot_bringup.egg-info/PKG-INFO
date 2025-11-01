@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: my-robot-bringup
-Version: 0.0.1
-Summary: Launch files for full robot bringup (LiDAR + odom + SLAM)
+Version: 0.1.0
+Summary: Bringup package for robot navigation and sensors
 Maintainer: rasp
-Maintainer-email: 
-License: MIT
+Maintainer-email: rasp@raspbotix.local
+License: Apache License 2.0

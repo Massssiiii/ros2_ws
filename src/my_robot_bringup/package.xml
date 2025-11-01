@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_robot_bringup</name>
+  <version>0.1.0</version>
+  <description>Launch and configuration for full robot navigation system</description>
+
+  <maintainer email="rasp@raspbotix.local">rasp</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>nav2_bringup</depend>
+  <depend>slam_toolbox</depend>
+  <depend>tf2_ros</depend>
+  <depend>lidar_chassis_filter</depend>
+  <depend>rf2o_laser_odometry</depend>
+  <depend>micro_ros_agent</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
